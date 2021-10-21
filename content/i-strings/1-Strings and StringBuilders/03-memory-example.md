@@ -28,16 +28,16 @@ Recall that strings are reference variables. As such, string variables hold poin
 
 
 - Initialization: In line two, we initialize `RESULT` as an empty string. In the heap, we have the empty string at memory location `0x1`. Thus, `RESULT` is holding the pointer `0x1`.
-![Initialize](../../images/1/1mem_map1.png)
+![Initialize](/cc315/images/1/1mem_map1.png)
 
 - I = 1: Now we have entered the loop and on line 4, we add more characters to our string. At this point, we would have entry `0x2` in our heap and our variable `RESULT` would have the pointer `0x2`. Continuing through the code, line 5 determines if `I` is divisible by 2. In this iteration `I = 1`, so we take the else branch. We again add characters to our string, resulting in a new entry in `0x3` and our variable `RESULT` containing the pointer `0x3`. In total, we have written 8 characters. We then increment `I` and move to the next iteration. 
-![After 1st loop](../../images/1/1mem_map3.png)
+![After 1st loop](/cc315/images/1/1mem_map3.png)
 
 - I = 2: We continue the loop and on line 4, we add more characters to our string. At this point, we would have entry `0x4` in our heap and our variable `RESULT` would have the pointer `0x4`. Continuing through the code, line 5 determines if `I` is divisible by 2. In this iteration `I = 2`, so we take the if branch. We again add characters to our string, resulting in a new entry in `0x5` and our variable `RESULT` containing the pointer `0x5`. In this iteration, we have written 17 characters. We then increment `I` and move to the next iteration of the loop.
-![After 2nd loop](../../images/1/1mem_map5.png)
+![After 2nd loop](/cc315/images/1/1mem_map5.png)
 
 - I = 3: We continue the loop and on line 4, we add more characters to our string. At this point, we would have entry `0x6` in our heap and our variable `RESULT` would have the pointer `0x6`. Continuing through the code, line 5 determines if `I` is divisible by 2. In this iteration `I = 3`, so we take the if branch. We again add characters to our string, resulting in a new entry in `0x7` and our variable `RESULT` containing the pointer `0x7`. In this iteration, we have written 26 characters. We then increment `I` and thus `I = 4` breaking out of the loop. 
-![After 3rd loop](../../images/1/1mem_map7.png)
+![After 3rd loop](/cc315/images/1/1mem_map7.png)
 
 We can do some further analysis of the memory that is required for this particular block. 
 | Iteration | Memory Entries| Total Character Copies |
