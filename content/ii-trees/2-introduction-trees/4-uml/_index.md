@@ -5,6 +5,7 @@ pre: "4. "
 ---
 {{% youtube y02_6lWMVnQ %}}
 
+[Video Materials](video)
 
 Along with understanding how trees work, we want to also be able to implement a tree of our own. We will now outline key components of a tree class. 
 
@@ -12,13 +13,13 @@ Along with understanding how trees work, we want to also be able to implement a 
 
 ### MyTree
 Recall that trees are defined recursively so we can build them from the leaves up where each leaf is a tree itself. Each tree will have three properties: the item it contains as an object, its parent node of type MyTree, and its children as a list of MyTrees. Upon instantiation of a new MyTree, we will set the item value and initialize the parent node to None and the children to an empty list of type MyTree. 
-![UML](../../images/2/tree_uml.png)
+![UML](/cc315/images/2/tree_uml.png)
 
 
 
 
 Suppose that we wanted to construct the following tree.
-![Tree](../../images/2/2Tree_Implementation.png)
+![Tree](/cc315/images/2/2Tree_Implementation.png)
 We would start by initializing each node as a tree with no parent, no children, and the item in this instance would be the characters. Then we build it up level by level by add the appropriate children to the respective parent.
 
 {{% notice info %}}
@@ -129,7 +130,7 @@ end function
 ```
 
 As with adding a child, we need to ensure that we are in the 'right place' when attempting to remove a child. When removing a child, we are not 'erasing' it, we are just cutting the tie from parent to child and child to parent. Consider removing `d` from `a`. Visually, we would have two disjoint trees, shown below:
-![Tree 2](../../images/2/2Tree_Implementation2.png)
+![Tree 2](/cc315/images/2/2Tree_Implementation2.png)
 
 In code, we would have: 
 
