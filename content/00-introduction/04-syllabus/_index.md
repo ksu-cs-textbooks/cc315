@@ -83,14 +83,14 @@ Since this course is entirely online, students may work at any time and at their
 
 **The following table outlines the highest possible score that a module can earn based on when it is complete** 
 
-|  | Tuesday | Wednesday | Thursday | Friday |
+|  | Thursday | Friday | Saturday | Sunday |
 | --- | --- | --- | --- | --- |
 | Before or at 11:59PM CST | 100% | 90% | 80% | 70% |
 | After 11:59PM CST | 90% | 80% | 70% | 60% |
 
-The table reads as: The assignments of a module turned in on Thursday before midnight can receive **at most** 80% of the possible points.
+The table reads as: The assignments of a module turned in on Saturday before midnight can receive **at most** 80% of the possible points.
 
-Assignments which are submitted late but score below the threshold will not receive a penalty. For example, if a module is completed on Thursday afternoon and the project scores 75/100, then no penalty will be received. 
+Assignments which are submitted late but score below the threshold will not receive a penalty. For example, if a module is completed on Saturday afternoon and the project scores 75/100, then no penalty will be received. 
 
 For the purposes of recordkeeping, the submission time of the confirmation quiz in each module will be used to establish the completion time of the entire module in case of a discrepancy. This is because Codio may update submission times when assignments are regraded, but the quiz in Canvas should only be completed once.
 
