@@ -5,7 +5,7 @@ hidden: true
 
 
 <section>
-<img class="stretch plain" src="/cc315/images/0/core-logo-on-white.svg">
+<img class="stretch plain" src="/images/0/core-logo-on-white.svg">
 <h3> Module 1 <br> Strings and StringBuilders <br> Memory Analysis</h3>
 <hr style="height:15px;color:512888;background-color:512888;">
 <h4>CC315</h4>
@@ -90,8 +90,8 @@ hidden: true
 <section>
 	<h3> Time Comparison</h3>
 <div class="row">
-    <img src="/cc315/images/1/315_stringsTime_python.png" style="width:48%">
-    <img src="/cc315/images/1/315_stringsTime_java.png" style="width:48%">
+    <img src="/images/1/315_stringsTime_python.png" style="width:48%">
+    <img src="/images/1/315_stringsTime_java.png" style="width:48%">
 </div>
 </section>
 

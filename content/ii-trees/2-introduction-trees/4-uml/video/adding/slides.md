@@ -4,14 +4,14 @@ hidden: true
 ---
 
 <section>
-<img class="stretch plain" src="/cc315/images/2/core-logo-on-white.png">
+<img class="stretch plain" src="/images/2/core-logo-on-white.png">
 <h3> Module 2 <br> Trees <br> Add Child</h3>
 <hr style="height:15px;color:512888;background-color:512888;">
 <h4>CC315</h4>
 </section>
 
 <section>
-<img class="stretch plain" src="/cc315/images/2/315_add_child1.svg">
+<img class="stretch plain" src="/images/2/315_add_child1.svg">
 </section>
 
 <section>
@@ -41,7 +41,7 @@ hidden: true
 </section>
 
 <section>
-<img class="stretch plain" src="/cc315/images/2/315_add_child2.svg">
+<img class="stretch plain" src="/images/2/315_add_child2.svg">
 </section>
 
 <section>

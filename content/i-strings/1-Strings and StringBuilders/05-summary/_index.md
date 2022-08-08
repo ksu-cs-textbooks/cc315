@@ -46,8 +46,8 @@ For the tests of 10<sup>8</sup> and 10<sup>9</sup> in Java, the string implement
  
 {{% / notice %}}
 
-![Python Time](/cc315/images/1/315_stringsTime_python.png)
-![Java Time](/cc315/images/1/315_stringsTime_java.png)
+![Python Time](/images/1/315_stringsTime_python.png)
+![Java Time](/images/1/315_stringsTime_java.png)
 
 These figures compare  Strings and lists for Python and Strings and StringBuilders for Java. The intention of these is not to compare Python and Java. 
 

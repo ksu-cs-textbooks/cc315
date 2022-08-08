@@ -16,7 +16,7 @@ We begin this course with an often overlooked structure: strings. By the end of 
 In many data science positions, programmers often work with text-based data. Some examples of text-based data include biology for DNA sequencing, social media for sentiment classification, online libraries for citation networks, and many other types of businesses for data analytics. Currently, strings are often used for word embeddings, which determine how similar or dissimilar words are to one another. An industry leading software for this application is Tensorflow for Python, which generated the image below. 
 
 
-![Word Embeddings Near 'Python'](/cc315/images/1/1_word_embedding.png) 
+![Word Embeddings Near 'Python'](/images/1/1_word_embedding.png) 
 <!--- https://projector.tensorflow.org/ I generated and took this screen shot. --->
 
 In an immense oversimplification, the process used for word embeddings is to read in a large amount of text and then use machine learning algorithms to determine similarity by using the words around each word. This impacts general users like us in search engines, streaming services, dating applications, and much more! For example, if you were to search Python topics in your search results may appear referring to the coding language, the reptile, the comedy troupe, and many more. When we use machine learning to determine word meanings, it is important that the data is first parsed correctly and stored in efficient ways so that we can access elements as needed. Understanding how to work with strings and problems that can arise with them is important to utilizing text successfully.

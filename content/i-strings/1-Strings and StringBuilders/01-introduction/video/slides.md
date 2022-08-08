@@ -4,7 +4,7 @@ hidden: true
 ---
 
 <section>
-<img class="stretch plain" src="/cc315/images/0/core-logo-on-white.svg">
+<img class="stretch plain" src="/images/0/core-logo-on-white.svg">
 <h3> Module 1 <br> Strings and StringBuilders <br> Introduction</h3>
 <hr style="height:15px;color:512888;background-color:512888;">
 <h4>CC315</h4>

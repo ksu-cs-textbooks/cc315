@@ -4,14 +4,14 @@ hidden: true
 ---
 
 <section>
-<img class="stretch plain" src="/cc315/images/0/core-logo-on-white.png">
+<img class="stretch plain" src="/images/0/core-logo-on-white.png">
 <h3> Module 2 <br> Trees <br> Pseudocode </h3>
 <hr style="height:15px;color:512888;background-color:512888;">
 <h4>CC315</h4>
 </section>
 
 <section>
-<img class="stretch plain" src="/cc315/images/2/315trees_uml.png">
+<img class="stretch plain" src="/images/2/315trees_uml.png">
 </section>
 
 <section>
@@ -40,7 +40,7 @@ hidden: true
 </small>
  </div>
  <div style="width:49%;float:right">
-<img class="stretch plain" style="height:500px"src="/cc315/images/2/315_2.4_code_ex.svg">
+<img class="stretch plain" style="height:500px"src="/images/2/315_2.4_code_ex.svg">
 </div>
 </section>
 
@@ -52,7 +52,7 @@ hidden: true
  </code></pre>
  </div>
 <div style="float:bottom">
-<img class="stretch plain" src="/cc315/images/2/315_2.4_code_init.svg">
+<img class="stretch plain" src="/images/2/315_2.4_code_init.svg">
 <div>
 </section>
 
@@ -84,5 +84,5 @@ hidden: true
 </section>
 
 <section>
-<img class="stretch plain" src="/cc315/images/2/315trees_uml.png">
+<img class="stretch plain" src="/images/2/315trees_uml.png">
 </section>

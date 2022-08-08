@@ -5,7 +5,7 @@ hidden: true
 <!--- s1 --->
 
 <section>
-<img class="stretch plain" src="/cc315/images/0/core-logo-on-white.svg">
+<img class="stretch plain" src="/images/0/core-logo-on-white.svg">
 <h3> Module 1 <br> Strings and StringBuilders <br> StringBuilders</h3>
 <hr style="height:15px;color:512888;background-color:512888;">
 <h4>CC315</h4>
@@ -125,7 +125,7 @@ String stringSB = SB.toString();
         return ENC.toString()
     end function
  </code></pre>
- <img class="stretch plain" src="/cc315/images/1/315SBmem_map1.png">
+ <img class="stretch plain" src="/images/1/315SBmem_map1.png">
 </section>
 
 <!--- s7--->
@@ -147,7 +147,7 @@ String stringSB = SB.toString();
         return ENC.toString()
     end function
  </code></pre>
- <img class="stretch plain" src="/cc315/images/1/315SBmem_map1.png">
+ <img class="stretch plain" src="/images/1/315SBmem_map1.png">
 </section>
 
 <!--- s8--->
@@ -169,7 +169,7 @@ String stringSB = SB.toString();
         return ENC.toString()
     end function
  </code></pre>
- <img class="stretch plain" src="/cc315/images/1/315SBmem_map2.png">
+ <img class="stretch plain" src="/images/1/315SBmem_map2.png">
 </section>
 
 <!--- s9 --->
@@ -191,7 +191,7 @@ String stringSB = SB.toString();
         return ENC.toString()
     end function
  </code></pre>
- <img class="stretch plain" src="/cc315/images/1/315SBmem_map3.png">
+ <img class="stretch plain" src="/images/1/315SBmem_map3.png">
 </section>
 
 <!--- s10 --->
@@ -213,7 +213,7 @@ String stringSB = SB.toString();
         return ENC.toString()
     end function
  </code></pre>
- <img class="stretch plain" src="/cc315/images/1/315SBmem_map4.png">
+ <img class="stretch plain" src="/images/1/315SBmem_map4.png">
 </section>
 
 <!--- s11 --->
@@ -235,7 +235,7 @@ String stringSB = SB.toString();
         return ENC.toString()
     end function
  </code></pre>
- <img class="stretch plain" src="/cc315/images/1/315SBmem_map5.png">
+ <img class="stretch plain" src="/images/1/315SBmem_map5.png">
 </section>
 
 <!--- s12 --->
@@ -257,7 +257,7 @@ String stringSB = SB.toString();
         <mark>return ENC.toString()</mark>
     end function
  </code></pre>
- <img class="stretch plain" src="/cc315/images/1/315SBmem_map6.png">
+ <img class="stretch plain" src="/images/1/315SBmem_map6.png">
 </section>
 
 

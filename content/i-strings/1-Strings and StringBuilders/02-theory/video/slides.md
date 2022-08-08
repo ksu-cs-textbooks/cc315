@@ -5,7 +5,7 @@ hidden: true
 
 
 <section>
-<img class="stretch plain" src="/cc315/images/0/core-logo-on-white.svg">
+<img class="stretch plain" src="/images/0/core-logo-on-white.svg">
 <h3> Module 1 <br> Strings and StringBuilders <br> Immutable</h3>
 <hr style="height:15px;color:512888;background-color:512888;">
 <h4>CC315</h4>
@@ -20,13 +20,13 @@ hidden: true
 
 <section>
 <h3> Strings </h3>
-<img class="stretch plain" src="/cc315/images/1/315Basic.png">
+<img class="stretch plain" src="/images/1/315Basic.png">
 </section>
 
 <section>
 <h3> Strings </h3>
 <pre class="" style="font-size: .3em"><code class="python"> RESULT = "Go Cats!"</code></pre>
-<img class="stretch plain" src="/cc315/images/1/315Basic.png">
+<img class="stretch plain" src="/images/1/315Basic.png">
 </section>
 
 
@@ -91,7 +91,7 @@ hidden: true
         return ENC
     end function
  </code></pre>
- 	<img class="stretch plain" src="/cc315/images/1/315mem_map.png">
+ 	<img class="stretch plain" src="/images/1/315mem_map.png">
 </section>
 
 <section>
@@ -112,7 +112,7 @@ hidden: true
         return ENC
     end function
  </code></pre>
- 	<img class="stretch plain" src="/cc315/images/1/315mem_map1.png">
+ 	<img class="stretch plain" src="/images/1/315mem_map1.png">
 </section>
 
 <section>
@@ -133,7 +133,7 @@ hidden: true
         return ENC
     end function
  </code></pre>
- 	<img class="stretch plain" src="/cc315/images/1/315mem_map1.png">
+ 	<img class="stretch plain" src="/images/1/315mem_map1.png">
 </section>
 
 <section>
@@ -154,7 +154,7 @@ hidden: true
         return ENC
     end function
  </code></pre>
- 	<img class="stretch plain" src="/cc315/images/1/315mem_map1.png">
+ 	<img class="stretch plain" src="/images/1/315mem_map1.png">
 </section>
 
 <section>
@@ -175,7 +175,7 @@ hidden: true
         return ENC
     end function
  </code></pre>
- 	<img class="stretch plain" src="/cc315/images/1/315mem_map1.png">
+ 	<img class="stretch plain" src="/images/1/315mem_map1.png">
 </section>
 
 <section>
@@ -196,7 +196,7 @@ hidden: true
         return ENC
     end function
  </code></pre>
- 	<img class="stretch plain" src="/cc315/images/1/315mem_map1.png">
+ 	<img class="stretch plain" src="/images/1/315mem_map1.png">
 </section>
 
 <section>
@@ -217,7 +217,7 @@ hidden: true
         return ENC
     end function
  </code></pre>
- 	<img class="stretch plain" src="/cc315/images/1/315mem_map2.png">
+ 	<img class="stretch plain" src="/images/1/315mem_map2.png">
 </section>
 
 <section>
@@ -238,7 +238,7 @@ hidden: true
         return ENC
     end function
  </code></pre>
- 	<img class="stretch plain" src="/cc315/images/1/315mem_map2.png">
+ 	<img class="stretch plain" src="/images/1/315mem_map2.png">
 </section>
 
 <section>
@@ -259,7 +259,7 @@ hidden: true
         return ENC
     end function
  </code></pre>
- 	<img class="stretch plain" src="/cc315/images/1/315mem_map2.png">
+ 	<img class="stretch plain" src="/images/1/315mem_map2.png">
 </section>
 
 <section>
@@ -280,7 +280,7 @@ hidden: true
         return ENC
     end function
  </code></pre>
- 	<img class="stretch plain" src="/cc315/images/1/315mem_map3.png">
+ 	<img class="stretch plain" src="/images/1/315mem_map3.png">
 </section>
 
 <section>
@@ -301,7 +301,7 @@ hidden: true
         return ENC
     end function
  </code></pre>
- 	<img class="stretch plain" src="/cc315/images/1/315mem_map3.png">
+ 	<img class="stretch plain" src="/images/1/315mem_map3.png">
 </section>
 
 <section>
@@ -322,7 +322,7 @@ hidden: true
         return ENC
     end function
  </code></pre>
- 	<img class="stretch plain" src="/cc315/images/1/315mem_map3.png">
+ 	<img class="stretch plain" src="/images/1/315mem_map3.png">
 </section>
 
 <section>
@@ -343,7 +343,7 @@ hidden: true
         return ENC
     end function
  </code></pre>
- 	<img class="stretch plain" src="/cc315/images/1/315mem_map4.png">
+ 	<img class="stretch plain" src="/images/1/315mem_map4.png">
 </section>
 
 <section>
@@ -364,7 +364,7 @@ hidden: true
         return ENC
     end function
  </code></pre>
- 	<img class="stretch plain" src="/cc315/images/1/315mem_map4.png">
+ 	<img class="stretch plain" src="/images/1/315mem_map4.png">
 </section>
 
 <section>
@@ -385,7 +385,7 @@ hidden: true
         return ENC
     end function
  </code></pre>
- 	<img class="stretch plain" src="/cc315/images/1/315mem_map5.png">
+ 	<img class="stretch plain" src="/images/1/315mem_map5.png">
 </section>
 
 

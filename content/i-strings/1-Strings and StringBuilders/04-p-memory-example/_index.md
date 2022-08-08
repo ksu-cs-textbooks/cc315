@@ -53,19 +53,19 @@ Consider the following, and note the slight changes on lines 2, 4, 6, 8 and the 
 Now consider APPENDER_LIST(4,'abc')
 
 - Initialization: We start by initializing the empty array. `RESULT` will hold the pointer `0x1`.
-![Initialize](/cc315/images/1/1SB_mem_map1.png)
+![Initialize](/images/1/1SB_mem_map1.png)
 
 - I = 1: Now we have entered the loop and on line 4, we add more characters to our array. At this point, we would have only entry `0x1` in our heap and our variable `RESULT` would have the pointer `0x1`. Continuing through the code, line 5 determines if `I` is divisible by 2. In this iteration `I = 1`, so we take the else branch. We again add characters to our array.  In total, we have written 5 characters. We then increment I and move to the next iteration.  
-![After 1st Loop](/cc315/images/1/1SB_mem_map3.png)
+![After 1st Loop](/images/1/1SB_mem_map3.png)
 
 - I = 2: We continue the loop and on line 4, we add more characters to our array. We still have just one entry in memory and our pointer is still `0x1`. In this iteration, we have written 4 characters. We then increment `I` and move to the next iteration of the loop.
-![After 2nd Loop](/cc315/images/1/1SB_mem_map5.png)
+![After 2nd Loop](/images/1/1SB_mem_map5.png)
 
 - I = 3: We continue the loop and on line 4, we add more characters to our array.  In this iteration, we have written 5 characters. We then increment `I` and thus `I = 4` breaking out of the loop. 
-![After 3rd Loop](/cc315/images/1/1SB_mem_map7.png)
+![After 3rd Loop](/images/1/1SB_mem_map7.png)
 
 - Post-Loop: Once the loop breaks, we join the array to create the final string. This creates a new place in memory and changes RESULT to contain the pointer `0x2`.
-![After Loop Breaks](/cc315/images/1/1SB_mem_map8.png)
+![After Loop Breaks](/images/1/1SB_mem_map8.png)
 
 
 

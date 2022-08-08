@@ -4,7 +4,7 @@ hidden: true
 ---
 
 <section>
-<img class="stretch plain" src="/cc315/images/0/core-logo-on-white.png">
+<img class="stretch plain" src="/images/0/core-logo-on-white.png">
 <h3> Module 2 <br> Trees <br> Not Trees</h3>
 <hr style="height:15px;color:512888;background-color:512888;">
 <h4>CC315</h4>
@@ -21,23 +21,23 @@ hidden: true
 </section>
 
 <section>
-<img class="stretch plain" src="/cc315/images/2/315_2.3_tree_2root.svg">
+<img class="stretch plain" src="/images/2/315_2.3_tree_2root.svg">
 </section>
 
 <section>
-<img class="stretch plain" src="/cc315/images/2/315_2.3_tree_2rootfix.svg">
+<img class="stretch plain" src="/images/2/315_2.3_tree_2rootfix.svg">
 </section>
 
 <section>
-<img class="stretch plain" src="/cc315/images/2/315_2.3_tree_legal.svg">
+<img class="stretch plain" src="/images/2/315_2.3_tree_legal.svg">
 </section>
 
 <section>
-<img class="stretch plain" src="/cc315/images/2/315_2.3_tree_cycle.svg">
+<img class="stretch plain" src="/images/2/315_2.3_tree_cycle.svg">
 </section>
 
 <section>
-<img class="stretch plain" src="/cc315/images/2/315_2.3_tree_cyclefix.svg">
+<img class="stretch plain" src="/images/2/315_2.3_tree_cyclefix.svg">
 </section>
 
 <section>

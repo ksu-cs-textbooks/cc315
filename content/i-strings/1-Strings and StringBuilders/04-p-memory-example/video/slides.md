@@ -5,7 +5,7 @@ hidden: true
 
 
 <section>
-<img class="stretch plain" src="/cc315/images/0/core-logo-on-white.svg">
+<img class="stretch plain" src="/images/0/core-logo-on-white.svg">
 <h3> Module 1 <br> Strings and StringBuilders <br> Character Arrays</h3>
 <hr style="height:15px;color:512888;background-color:512888;">
 <h4>CC315</h4>
@@ -124,7 +124,7 @@ string_arr = "".join(arr) # will result in "foo1234"
         return "".join(ENC)
     end function
  </code></pre>
- <img class="stretch plain" src="/cc315/images/1/315SBmem_map1.png">
+ <img class="stretch plain" src="/images/1/315SBmem_map1.png">
 </section>
 
 <!--- s7--->
@@ -168,7 +168,7 @@ string_arr = "".join(arr) # will result in "foo1234"
         return "".join(ENC)
     end function
  </code></pre>
- <img class="stretch plain" src="/cc315/images/1/315SBmem_map2.png">
+ <img class="stretch plain" src="/images/1/315SBmem_map2.png">
 </section>
 
 <!--- s9 --->
@@ -212,7 +212,7 @@ string_arr = "".join(arr) # will result in "foo1234"
         return "".join(ENC)
     end function
  </code></pre>
- <img class="stretch plain" src="/cc315/images/1/315SBmem_map4.png">
+ <img class="stretch plain" src="/images/1/315SBmem_map4.png">
 </section>
 
 <!--- s11 --->
@@ -256,7 +256,7 @@ string_arr = "".join(arr) # will result in "foo1234"
         <mark>return "".join(ENC)</mark>
     end function
  </code></pre>
- <img class="stretch plain" src="/cc315/images/1/315SBmem_map6.png">
+ <img class="stretch plain" src="/images/1/315SBmem_map6.png">
 </section>
 
 
