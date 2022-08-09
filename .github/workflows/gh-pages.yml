@@ -26,7 +26,7 @@ jobs:
           # extended: true
 
       - name: Build
-        run: hugo -b "https://ksu-cs-textbooks.github.io/cc315-textbook"
+        run: hugo -b "https://ksu-cs-textbooks.github.io/cc315/"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
