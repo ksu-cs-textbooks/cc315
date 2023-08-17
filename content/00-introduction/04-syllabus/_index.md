@@ -62,14 +62,19 @@ All activities are individual effort.  'Group' work is not permitted.
 
 You are expected to use the Codio Editor.  It is deliberately feature poor to place the burden of programming syntax, vocabulary and logic flow on the student.  DO NOT CUT AND PASTE into the editor while coding your projects. 
 
-Exception, you may cut and paste from Codio, so if you accidently delete the starter code, or want to modify a section of code you made in the tutorial.  INCLUDE a comment stating from where you “sourced” the pasted section.
+Exception, you may cut and paste from Codio, so if you accidently delete the starter code, or want to modify a section of code you made in the tutorial.  INCLUDE a comment stating from where you 'sourced' the pasted section.
 
 from Codio tutorial 3.4.P.7
 with open(sys.argv[1]) as input_file:
+
     try:     
+
         reader = input_file.readlines()
+
     except:
+
         reader = sys.stdin
+
 
 ### Grading
 
@@ -91,7 +96,7 @@ Letter grades will be assigned following the standard scale:
 ### How Project Grades are Assigned
 The Projects you submit in Codio may have both an automatic and manual grading component.
 
-Automatic Components:  Codio automatically checks certain aspects of your code’s structure and functionality.  The grade assigned by Codio is generally the ceiling of the score you can receive.
+Automatic Components:  Codio automatically checks certain aspects of your code's structure and functionality.  The grade assigned by Codio is generally the ceiling of the score you can receive.
 
 Manual Components:  Once submitted your code may be reviewed and deductions take for:
 
@@ -148,11 +153,11 @@ Unless otherwise noted in writing on a signed [Incomplete Agreement Form](https:
 4. Students understand that access to instructor and GTA assistance may be limited after the end of an academic semester due to holidays and other obligations
 5. If a student fails to resolve an incomplete grade after 6 weeks, they will be assigned an 'F' in the course. In addition, they will be dropped from any other Computational Core courses which require the failed course as a prerequisite or corequisite.
 
+### Authorized Aid
 
-###Authorized Aid
 All graded work is individual effort. You are authorized  to use:
 
-course’s materials,
+course's materials,
 direct web-links from this course
 the appropriate languages documentation (https://docs.python.org/3/  or https://docs.oracle.com/javase/Links to an external site.)
 Email help received through  315 help email, CC - Instructors, GTAs
@@ -161,12 +166,12 @@ ACM help session (an on campus only resource) Most Tuesdays in EH 1116, 6:30PM.
 Tutors from the Academic Assistance Center or provided by K-State Athletics 
 Use of on-line solutions whether for reference or code is prohibited.  Use of previous semester's answers, whether your own or another student's is prohibited.  Use of code-completion/suggestion tool's, other than those we have installed in the Codio editor, is prohibitied.
 
-###Work Load
+### Work Load
 CC-315 is a three-hour course;  most students find it more time consuming than CC-310.
 
 Modules have been assigned so that the average amount of work (hours), based on past student performance, is somewhat consistent. 
 
-You may work ahead, but modules must be worked strictly in order.  Also, if you are far ahead, it may take a bit longer to get help. We review the lessons every week so the support you get is not “too advanced”; if you are pretty far ahead, we will need to “catch up” to where you are to provide support.
+You may work ahead, but modules must be worked strictly in order.  Also, if you are far ahead, it may take a bit longer to get help. We review the lessons every week so the support you get is not 'too advanced'; if you are pretty far ahead, we will need to 'catch up' to where you are to provide support.
 
 Please note, modules are not equally weighted, some are worth far more than others. 
 
