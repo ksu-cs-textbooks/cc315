@@ -56,7 +56,7 @@ These courses are being taught 100% online, and each module is self-paced. There
 
 The assigments for this course is delivered through Python programming language.
 
-All activities are individual effort.  “Group” work is not permitted.
+All activities are individual effort.  'Group' work is not permitted.
 
 ###  Codio
 
