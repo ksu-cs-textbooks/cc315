@@ -81,8 +81,8 @@ with open(sys.argv[1]) as input_file:
 
 In theory, each student begins the course with an A. As you submit work, you can either maintain your A (for good work) or chip away at it (for less adequate or incomplete work). In practice, each student starts with 0 points in the gradebook and works upward toward a final point total earned out of the possible number of points. In this course, each assignment constitutes a portion of the final grade, as detailed below:
 
-* 75% - Codio Programming Projects
-* 25% - Codio Tutorials and Quizzes
+* 70% - Codio Programming Projects
+* 30% - Codio Tutorials and Quizzes
 
 Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** assignment for details.
 
