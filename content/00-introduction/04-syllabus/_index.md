@@ -118,7 +118,7 @@ Style Guide: see Pages
 Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via the help email. Not understanding the policy does not mean that it won't apply to you!
 {{% /notice %}}
 
-Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified. **All of the components of a module will be subject to the late policy if the module is submitted late. This penalty will be assessed via a single separate assignment entry in the gradebook, containing the sum of all grade reductions in the course for that student.** 
+Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified. **All of the components of a module will be subject to the late policy if the module is submitted late. This penalty will be assessed via a single separate assignment entry in the gradebook, containing the sum of all grade reductions in the course for that student. Late assignments will not be accepted if they have been submitted more than 3 days after the due date, unless a special reason is provided and prior approval for an extension has been obtained before the due date.** 
 
 **The following table outlines the highest possible score that a module can earn based on when it is complete** 
 
