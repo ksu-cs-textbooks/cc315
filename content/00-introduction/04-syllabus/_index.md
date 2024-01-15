@@ -17,12 +17,6 @@ pre: "1. "
 Appointments held via [Zoom](https://ksu.zoom.us/my/safiamalallah).
 
 
-#### Preferred Methods of Communication:
-
-* **For Course Related Questions**: cc315-help AT KSUemailProd DOT onmicrosoft DOT com
-  * Or from your KSU email, you can type '**cc315-help**' in the 'To' Field then hit your Tab key to auto-complete the address.
-* **Other Questions**: emilyalfs AT ksu DOT edu 
-
 ### Graduate Teaching Assistants
 
 * TBD 
