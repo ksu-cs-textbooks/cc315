@@ -10,7 +10,7 @@ pre: "1. "
 
 ### Instructor Contact Information
 
-* **Instructor:** Safia Malallah (safia AT ksu DOT edu)<br> _I use **she/her** pronouns. if you need assistance make sure to send an email to safia @ ksu.edu while ccing cis115-help@KSUemailProd.onmicrosoft.com please don’t use the canvas email function. this ensures that your email will reach to all who teach this course which can guaranteeing a swifter response. you can expect a response by the end of the next business day, please reach out again if you didn’t get a response within 24 business hours.
+* **Instructor:** Safia Malallah (safia AT ksu DOT edu) _I use she/her pronouns. If you need assistance, please send an email to safia @ ksu.edu, cc'ing cis115-help@KSUemailProd.onmicrosoft.com. Avoid using the Canvas email function, as emailing this way ensures that your message reaches all instructors for this course, guaranteeing a swifter response. You can expect a response by the end of the next business day; feel free to reach out again if you don't receive a response within 24 business hours.
 
 * **Office:** DUE 2161
 * **Virtual Office Hours:** Schedule a meeting with me: https://calendly.com/safiamalallah 
