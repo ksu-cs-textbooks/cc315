@@ -56,7 +56,7 @@ All activities are individual effort.  'Group' work is not permitted.
 
 ###  For a Better Score
  Students are granted the opportunity to 
- * Student can have the chance to redo One coding project for a better score. 
+* Student can have the chance to redo One coding project for a better score. 
   * Upon selecting the project for revision, students are required to send an email to the instructor.
   * A 24-hour window is provided for students to resubmit the improved work.
   * Requests for project redo will be accepted until week 15 of the course.
