@@ -54,7 +54,7 @@ The assigments for this course is delivered through Python programming language.
 
 All activities are individual effort.  'Group' work is not permitted.
 
-###  for a Better Score
+###  For a Better Score
  Students are granted the opportunity to 
  * Student can have the chance to redo One coding project for a better score. 
   * Upon selecting the project for revision, students are required to send an email to the instructor.
