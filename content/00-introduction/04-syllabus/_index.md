@@ -54,6 +54,18 @@ The assigments for this course is delivered through Python programming language.
 
 All activities are individual effort.  'Group' work is not permitted.
 
+###  for a Better Score
+ Students are granted the opportunity to 
+ * Student can have the chance to redo One coding project for a better score. 
+  * Upon selecting the project for revision, students are required to send an email to the instructor.
+  * A 24-hour window is provided for students to resubmit the improved work.
+  * Requests for project redo will be accepted until week 15 of the course.
+* One late penalty will be dropped 
+
+
+
+
+
 ###  Codio
 
 You are expected to use the Codio Editor.  It is deliberately feature poor to place the burden of programming syntax, vocabulary and logic flow on the student.  DO NOT CUT AND PASTE into the editor while coding your projects. 
