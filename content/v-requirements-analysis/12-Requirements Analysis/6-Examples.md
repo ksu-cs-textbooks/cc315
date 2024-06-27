@@ -3,7 +3,7 @@ title: "Examples"
 weight: 30
 pre: "6. "
 ---
-{{% youtube eCa3TreKdqU %}}
+{{< youtube eCa3TreKdqU  >}}
 
 
 In real world applications, it won't always be a straightforward choice to use one structure over another. Users may come to us with unclear ideas of what they are looking for and we will need to be able to infer what structure is best suited for their needs based on what we can learn from them. Typically, those describing applications to us may not be familiar with the nomenclature we use as programmers. Instead, we have to look for clues about how the data is structured and used to help us choose the most appropriate data structures
@@ -24,7 +24,7 @@ This is a situation where we could potentially use all three data structures!
 
 First, we could use a tree to represent the search refinement. Thinking along the lines of a data structure, each category and subsequently each product will have exactly one parent. While something like 'wigs' shows up in all three categories, you wouldn't want dog wigs showing up in a search for adult wigs. Thus, there is a unique ancestry for each category and product. 
 
-![Tree for Search](../../images/11/11_costume_trie.svg)
+![Tree for Search](images/11/11_costume_trie.svg)
 
 In this scenario we had a fixed ordering of our hierarchy. If the manager wanted users to be able to sort by costume part and then who it was for, our tree would not hold up. 
 
@@ -52,18 +52,18 @@ We can use a priority queue to suggest tasks for the players to do. In this prio
 
 We can use a trie to represent the set of shortcuts. Below is a small sample of how we can implement our trie. 
 
-![Trie for Shortcuts](../../images/11/11_videogame_trie.svg)
+![Trie for Shortcuts](images/11/11_videogame_trie.svg)
 
 Since our friend mentioned that similar tasks should have similar combinations, a trie will fit well. These key combinations will have similar prefixes, so we can save ourselves space to store them by using a trie. 
 
 Finally, for the world layout we could use a graph. Similar to the maze project or weather station project, we can have nodes represent points on a plot and the edges will represent connections. The nodes will now have three coordinates, (x,y,z), rather than two, (x,y) or (latitude, longitude) and they will have an associated type (dirt, tree, rock, etc.). 
-![Graph for world blocks](../../images/11/11_videogame_graph.svg)
+![Graph for world blocks](images/11/11_videogame_graph.svg)
 
 
 Two nodes will be connected if they directly adjacent. Players can harvest cubes such as soil or limestone, and it would be removed from the world. We would utilize our remove node function to reflect this kind of action. Similarly, players can build up the world in spaces that allow, such as the dirt pile in an open area, and for that we can use our add node function as well as the appropriate add edge functions.  
 
 In our implementation of a graph, it would be better to use a list graph. Each block will be connected to at most six other blocks. 
-![Cubes neighbors](../../images/11/11_videogame_cubes.svg)
+![Cubes neighbors](images/11/11_videogame_cubes.svg)
 
 
 

@@ -28,7 +28,7 @@ A trie is a type of tree with some special characteristics, which are:
 
 Tries are best suited for data sets in which elements have similar prefixes. In this course we focused on tries to represent words in a language, which is the most common use of tries. We used tries for an auto-complete style application. 
 
-![Trie example: words starting with 'car'](../../images/11/11_trie.svg)
+![Trie example: words starting with 'car'](images/11/11_trie.svg)
 
 Tries are a very efficient way of storing dense hierarchical data, since each node in the trie only stores a single portion of the overall data. They also allow quickly looking up if a particular element or path exists - usually much quicker than looking through a linear list of words. 
 

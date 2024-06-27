@@ -5,7 +5,7 @@ pre: "5. "
 ---
 This page will be devoted to summarizing our performance discussions. Below, we have included a graph for a frame of reference for the various functions. 
 
-![Graph](../../images/12/12_graph.png)
+![Graph](images/12/12_graph.png)
 
 Generic Trees
 ---

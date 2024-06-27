@@ -3,7 +3,7 @@ title: "Depth First"
 weight: 10
 pre: "2. "
 ---
-{{% youtube 3lalaxn0yNs %}}
+{{< youtube 3lalaxn0yNs  >}}
 [Video Slides](https://core.cs.ksu.edu/4-cc315/08-graph-traversal/02-graph-traversals-dfs-slides/#/)
 
 
@@ -21,7 +21,7 @@ Recall that a stack is a 'Last In First Out' (LIFO) structure. Based on this, th
 To do the traversal, we must pick a starting node; this can be an arbitrary node in our graph. If we were doing the traversal on a tree, we would typically select the root at a starting point. We start a while loop to go through the stack which we will be pushing and popping from. We get the top element of the stack, if the node has not been visited yet then we will add it to the set to note that we have now visited it. Then we get the neighbors of the node and put them onto the stack and continue the process until the stack is empty. 
  
 
-![DFS Example GIF](../../images/8/SEARCH_DFS.gif)
+![DFS Example GIF](images/8/SEARCH_DFS.gif)
 
 ``` tex
 function DEPTHFIRST(GRAPH,SRC)

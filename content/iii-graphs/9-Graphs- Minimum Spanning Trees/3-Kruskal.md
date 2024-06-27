@@ -3,7 +3,7 @@ title: "Kruskal"
 weight: 15
 pre: "3. "
 ---
-{{% youtube av-r-orP56g %}}
+{{< youtube av-r-orP56g  >}}
 
 
 As graphs get larger, it is important to go about finding the MST in a methodical way. In the mid 1950's, there was a desire to form an algorithmic approach for solving the 'traveling salesperson' problem^[We will describe this problem in a future section of this module]. Joseph Kruskal first published this algorithm in 1956 in the Proceedings of the American Mathematical Society^[https://www.ams.org/journals/proc/1956-007-01/S0002-9939-1956-0078686-7/S0002-9939-1956-0078686-7.pdf]. The algorithms prior to this were, as Kruskal said, "unnecessarily elaborate" thus the need for a more succinct algorithm arose. 
@@ -21,14 +21,14 @@ In his original work, Kruskal outlined three different yet similar algorithms to
 
 Starting Graph
 ---
-![Kruskal Example Start](../../images/9/315_9_Lex.svg)
+![Kruskal Example Start](images/9/315_9_Lex.svg)
 
 
-![Kruskal Example GIF](../../images/9/kruskal.gif)
+![Kruskal Example GIF](images/9/kruskal.gif)
 
 Resulting MST
 ---
-![Kruskal Example Result](../../images/9/315_9_Kdone.svg)
+![Kruskal Example Result](images/9/315_9_Kdone.svg)
 
 
 

@@ -3,10 +3,10 @@ title: "Recursion Refresh"
 weight: 15
 pre: "3. "
 ---
-{{% youtube 7ee0C0v2L1w %}}
+{{< youtube 7ee0C0v2L1w  >}}
 
 
-![Subtrees](../../images/2/2Tree_SubTree.png)
+![Subtrees](images/2/2Tree_SubTree.png)
 
 
 {{% notice info %}}

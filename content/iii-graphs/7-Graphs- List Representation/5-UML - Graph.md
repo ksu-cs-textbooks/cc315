@@ -3,9 +3,9 @@ title: "UML - Graph"
 weight: 25
 pre: "5. "
 ---
-{{% youtube A6HVJWM3VS4 %}}
+{{< youtube A6HVJWM3VS4  >}}
 
-![List Graph UML](../../images/7/graphs_listUML_graph.svg)
+![List Graph UML](images/7/graphs_listUML_graph.svg)
 
 Attributes
 ---

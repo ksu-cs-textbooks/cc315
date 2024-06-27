@@ -3,7 +3,7 @@ title: "Terms I"
 weight: 10
 pre: "2. "
 ---
-{{% youtube QIX78W3GUpc %}}
+{{< youtube QIX78W3GUpc  >}}
 
 
 We will discuss some of the basic terminology associated with graphs. Some of this vocabulary should feel familiar from the trees section; trees are a specific type of graph!
@@ -46,7 +46,7 @@ Example
 
 For example, we can translate the [Amtrak Train Station Connections](https://www.amtrak.com/content/dam/projects/dotcom/english/public/documents/Maps/Amtrak-System-Map-1018.pdf) into a graph where the edges represent direct train station connections. 
 
-![Amtrak Train Graph](../../images/6/amtrak.svg)^[Generated using the Amtrak system map from 2018. This graph does not include all stations or connections.]
+![Amtrak Train Graph](images/6/amtrak.svg)^[Generated using the Amtrak system map from 2018. This graph does not include all stations or connections.]
 
 Within this context, we could say that Little Rock and Fort Worth are `adjacent`. The `neighbors` of San Antonio are Fort Worth, Los Angeles, and New Orleans. The Amtrak Train Graph has multiple `cycles`. One of these is `Kansas City -> St. Louis -> Chicago -> Kansas City`. 
 

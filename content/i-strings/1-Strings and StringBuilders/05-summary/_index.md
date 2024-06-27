@@ -3,7 +3,7 @@ title: "Summary"
 weight: 30
 pre: "6. "
 ---
-{{% youtube MJ1tkFIDEAA %}}
+{{< youtube MJ1tkFIDEAA  >}}
 
 [Video Materials](video)
 

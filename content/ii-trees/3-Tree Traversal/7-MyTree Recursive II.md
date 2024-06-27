@@ -9,7 +9,7 @@ pre: "7. "
 
 We can determine many relationships within the tree. For example, given a node is it an ancestor of another node, a descendant, or a sibling? 
 
-{{% youtube hr73fsl8RzM %}}
+{{< youtube hr73fsl8RzM  >}}
 
 ##### Is Ancestor?
 For this function, we are asking: is this node an ancestor of the current instance? In this implementation, we will start at our instance and **work down** through the tree trying to find the node in question. With that in mind, we can define this process recursively:

@@ -3,7 +3,7 @@ title: "MyTree I"
 weight: 20
 pre: "4. "
 ---
-{{% youtube y02_6lWMVnQ %}}
+{{< youtube y02_6lWMVnQ  >}}
 
 [Video Materials](video)
 
@@ -56,7 +56,7 @@ We will have two functions to check the node type: one to determine if the node 
 
 ### Adding a child 
 
-{{% youtube T5gy1Q7hx1w %}}
+{{< youtube T5gy1Q7hx1w  >}}
 
 When we wish to add a child, we must fisrt make sure we are able to add the child. 
 
@@ -114,7 +114,7 @@ Once we have completed that, visually, we would have the tree above and in code 
 
 ### Removing a child
 
-{{% youtube QtfZIUMPrJY %}}
+{{< youtube QtfZIUMPrJY  >}}
 
 In the case of removing a child, we first need to check that the child we are attempting to remove is an instance of `MyTree`. We will return true if we successfully remove the child and false otherwise. 
 

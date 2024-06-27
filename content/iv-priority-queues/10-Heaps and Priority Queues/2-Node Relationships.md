@@ -3,10 +3,10 @@ title: "Node Relationships"
 weight: 10
 pre: "2. "
 ---
-{{% youtube TZZiihhBXco %}}
+{{< youtube TZZiihhBXco  >}}
 
 Heaps can be viewed in two forms: as a tree or as an array. We will use the array style in code but we can have the tree structure in the back of our mind to help understand the order of the data. Here is an example of the heap as a tree on the left and the heap as an array on the right. 
-![](../../images/10/Mod10_heap_and_array_numbered.svg)
+![](images/10/Mod10_heap_and_array_numbered.svg)
 The root of the heap will always be the first element. Then we can base the numbering of the following nodes from left to right and top to bottom. For example, the left child of the root will be the second entry and the right child will be the third.
 
 Accessing Indexes 
@@ -35,7 +35,7 @@ The function `floor(x)` like in `floor(i/2)` will round decimal values down to t
 
 {{% / notice %}}
 
-![](../../images/10/heap_numbering.svg)
+![](images/10/heap_numbering.svg)
 
 
 | Node | Parent | Left Child | Right Child |
@@ -51,7 +51,7 @@ Try it!
 
 Consider the following example and try to work some out for yourself. 
 
-![](../../images/10/Mod10_justarray.svg)
+![](images/10/Mod10_justarray.svg)
 
 For example, if we ask for the parent of the node with value 27, our answer would be the node with value 35 The node with value 27 has index 5. Thus, the parent of that node will have index `floor(5/2)=2`. Node 35 is at index two, as such, node 35 is the parent of node 27.  
 
@@ -66,6 +66,6 @@ For example, if we ask for the parent of the node with value 27, our answer woul
 {{% notice info %}}
 
 In a heap where `n` is the size of heap, the elements `floor(n/2)+1` through `n` will always be leaves. If we assume that we have just the 12 elements in this example, then based on this formula, elements 7 through 12 must be leaves. We can verify this in the tree representation!
-![](../../images/10/heap_numbering.svg)
+![](images/10/heap_numbering.svg)
 
 {{% / notice %}}

@@ -3,9 +3,9 @@ title: "Priority Queues"
 weight: 20
 pre: "4. "
 ---
-{{% youtube doAjYITSxQI %}}
+{{< youtube doAjYITSxQI  >}}
 
-![](../../images/10/todo_tree_array.svg)
+![](images/10/todo_tree_array.svg)
 
 Let's look at the performance of priority queues next. These structures are based on a heap, which has some unique characteristics related to the _heap properties_ that it must maintain. 
 

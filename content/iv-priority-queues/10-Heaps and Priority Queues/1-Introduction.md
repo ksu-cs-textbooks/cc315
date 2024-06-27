@@ -3,7 +3,7 @@ title: "Introduction"
 weight: 5
 pre: "1. "
 ---
-{{% youtube QEFyC0gGc_E %}}
+{{< youtube QEFyC0gGc_E  >}}
 
 The next data structure we will cover is heaps. The heaps discussed in this course are not to be confused with heaps which refer to garbage collection in certain coding languages. Heaps are good for situations were we will need to frequently access and update the highest (or lowest) priority item in a set. For example, heaps are a good data structure to use in Prim's algorithm. In Prim's algorithm, we repeatedly got the smallest edge, removed the smallest edge, and then added to and sorted the list of edges. 
 
@@ -14,10 +14,10 @@ Heap Properties
 A heap is an array which we can view as an unsorted binary tree. This tree must have the following properties:
 1. Each node has at most two children.
 1. If there are nodes in level `i` of the tree, then level `i-1` is full. Below we have an example of how this property has been broken. Level two is not full but there are nodes on level three.
-![](../../images/10/Mod10_ex_full_level.svg)
+![](images/10/Mod10_ex_full_level.svg)
 1. The nodes of the last level are as far left as possible. Below we have an example of how this property has been broken. 
 
-![](../../images/10/Mod10_ex_left.svg)
+![](images/10/Mod10_ex_left.svg)
 
 
 {{% notice info %}}

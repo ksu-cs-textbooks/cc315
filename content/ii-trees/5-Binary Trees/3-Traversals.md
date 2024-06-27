@@ -3,7 +3,7 @@ title: "Traversals"
 weight: 15
 pre: "3. "
 ---
-{{% youtube TNkWt307y84 %}}
+{{< youtube TNkWt307y84  >}}
 
 In the first module we discussed two types of traversals: preorder and postorder. Within that discussion, we noted that for general trees, the preorder and postorder traversal may not be unique. This was due to the fact that children nodes are an unordered set.
 
@@ -33,17 +33,17 @@ Now for binary trees, we can modify their definitions to be more explicit:
     3. Access the root. 
     
 Let's practice traversals on the following binary tree. 
-![Traversal Tree](../../images/4/4Binary_Traversal.png)
+![Traversal Tree](images/4/4Binary_Traversal.png)
 
 Preorder Traversal
 ---
 
-![Preorder](../../images/4/4Binary_Pre.gif)
+![Preorder](images/4/4Binary_Pre.gif)
 
 Postorder Traversal
 ---
 
-![Postorder](../../images/4/4Binary_Post.gif)
+![Postorder](images/4/4Binary_Post.gif)
 
 
 

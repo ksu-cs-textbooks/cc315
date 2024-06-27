@@ -3,7 +3,7 @@ title: "General Terms"
 weight: 10
 pre: "2. "
 ---
-{{% youtube JvbXXm_KEDY %}}
+{{< youtube JvbXXm_KEDY  >}}
 
 [Video Materials](video)
 

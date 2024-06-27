@@ -3,13 +3,13 @@ title: "Trees"
 weight: 10
 pre: "2. "
 ---
-{{% youtube ygzji6IOd18 %}}
+{{< youtube ygzji6IOd18  >}}
 
 There are three types of trees to consider: generic trees, tries, and binary trees.
 
 ### General Trees
 
-![Tree](../../images/2/2Tree_Implementation.svg)
+![Tree](images/2/2Tree_Implementation.svg)
 
 * **Insert**: In general, inserting an element into a tree by making it a child of an existing tree is a constant time operation. However, this depends on us already having access to the parent tree we'd like to add the item to, which may require searching for that element in the tree as discussed below, which runs in linear time based on the size of the tree. As we saw in our projects, one way we can simplify this is using a hash table to help us keep track of the tree nodes while we build the tree, so that we can more quickly access a desired tree (in near constant time) and add a new child to that tree. 
 
@@ -23,7 +23,7 @@ There are three types of trees to consider: generic trees, tries, and binary tre
 
 ### Tries
 
-![Trie 1](../../images/assessments/4Trie_Tree1.svg)
+![Trie 1](images/assessments/4Trie_Tree1.svg)
 
 Tries improve on the structure of trees in one important way - instead of using a generic list to store each child, they typically use a statically sized array, where each index in the array directly corresponds to one of the possible children that the node could have. In the case of a trie that represents words, each tree node may have an array of 26 possible children, one for each letter of the alphabet. In our implementation, we chose to use lists instead to simplify things a bit, but for this analysis we'll assume that the children of a trie node can be accessed in constant time through the use of these static arrays.
 
@@ -43,7 +43,7 @@ In summary, pretty much every operation performed on a trie is related to the le
 
 ### Binary Trees
 
-![Tree 1](../../images/assessments/4Binary_Tree1.png)
+![Tree 1](images/assessments/4Binary_Tree1.png)
 
 A binary tree is a tree that is limited to having only two children of each node, and the children and parents are sorted such that every element to the left of the node is less than or equal to its value, and all elements to the right of the node are greater than or equal to its value. Because of this, they perform a little differently than traditional trees.
 

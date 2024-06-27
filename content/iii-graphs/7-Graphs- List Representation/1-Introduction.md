@@ -3,7 +3,7 @@ title: "Introduction"
 weight: 5
 pre: "1. "
 ---
-{{% youtube DgN_qmbtK_M %}}
+{{< youtube DgN_qmbtK_M  >}}
 
 
 In the previous module, we introduced graphs and a matrix-based implementation. For this module, we will continue working with graphs and change our implementation to lists. 

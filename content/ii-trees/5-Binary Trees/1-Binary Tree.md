@@ -3,9 +3,9 @@ title: "Binary Tree"
 weight: 5
 pre: "1. "
 ---
-{{% youtube FugxsgsFu9I %}}
+{{< youtube FugxsgsFu9I  >}}
 
-![Binary Tree](../../images/4/4Tree_Binary.png)
+![Binary Tree](images/4/4Tree_Binary.png)
 
 A binary tree is a type of tree with some special conditions. First, it must follow the guidelines of being a tree: 
 - There must be single root,

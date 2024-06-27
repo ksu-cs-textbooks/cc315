@@ -3,7 +3,7 @@ title: "Theory"
 weight: 10
 pre: "2. "
 ---
-{{% youtube KII6o4G5I_U %}}
+{{< youtube KII6o4G5I_U  >}}
 
 [Video Materials](video)
 

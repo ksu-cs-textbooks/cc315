@@ -5,7 +5,7 @@ pre: "4. "
 ---
 ### Getters 
 
-{{% youtube su-hJ1CDY3M %}}
+{{< youtube su-hJ1CDY3M  >}}
 
 
 #### Getting word count 
@@ -43,7 +43,7 @@ end function
 
 #### Get completions 
 
-{{% youtube urFTpJwqRVY %}}
+{{< youtube urFTpJwqRVY  >}}
 
 
 This function will act as an auto-complete utility of sorts. A user will input a string of characters and we will return all of the possible words that are contained in our trie. This will happen in two phases. First, we traverse the trie to get to the end of the input string (lines 1-12). The second portion then gets all of the words that are contained after that point in our trie (lines 14-21).

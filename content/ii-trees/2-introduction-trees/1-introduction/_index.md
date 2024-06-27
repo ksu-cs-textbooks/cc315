@@ -3,7 +3,7 @@ title: "Introduction"
 weight: 5
 pre: "1. "
 ---
-{{% youtube As_g6_ozRkU %}}
+{{< youtube As_g6_ozRkU  >}}
 
 [Video Materials](video)
 

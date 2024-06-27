@@ -3,14 +3,14 @@ title: "Graphs"
 weight: 15
 pre: "3. "
 ---
-{{% youtube gd2_k51IFsw %}}
+{{< youtube gd2_k51IFsw  >}}
 
 There are two types of graphs that we've covered in this class: list graphs and matrix graphs. Graphs are slightly different than other data structures, because we may want to find or access both nodes and edges in the graph. So, we'll need to analyze the performance of graphs with respect to both nodes and edges.
 
 ### Matrix Graph
 
-![Matrix Representation Example 2](../../images/6/graphB.svg)
-![Matrix Representation Example 3](../../images/6/matrixB.svg)
+![Matrix Representation Example 2](images/6/graphB.svg)
+![Matrix Representation Example 3](images/6/matrixB.svg)
 
 Recall that a matrix graph uses an array to store the nodes, and a two-dimensional array to store the edges. 
 
@@ -38,8 +38,8 @@ So, for most matrix graph operations, we can do nearly everything in either cons
 
 ### List Graph
 
-![Example 1](../../images/6/graphA.svg)
-![List Representation for Example 1](../../images/7/graphA_list_rep.svg)
+![Example 1](images/6/graphA.svg)
+![List Representation for Example 1](images/7/graphA_list_rep.svg)
 
 Recall that a list graph uses an array to store the nodes, and then each node stores a list of edges that start from that node.  
 

@@ -3,7 +3,7 @@ title: "Types of Data"
 weight: 10
 pre: "2. "
 ---
-{{% youtube pcFgY09EWmk %}}
+{{< youtube pcFgY09EWmk  >}}
 
 
 

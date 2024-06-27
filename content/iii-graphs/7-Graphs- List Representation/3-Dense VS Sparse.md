@@ -3,7 +3,7 @@ title: "Dense VS Sparse"
 weight: 15
 pre: "3. "
 ---
-{{% youtube y4bCalShe_Y %}}
+{{< youtube y4bCalShe_Y  >}}
 
 When considering which implementation to use, we need to consider the connectivity in our graph. The terms that we use to describe the connectedness are **dense** and **sparse**.
 
@@ -22,18 +22,18 @@ Dense
 ---
 The following is a dense graph. In this case, our graph does have the maximum number of edges. This means that every node is connected to every other node including itself.
 
-![Dense Graph](../../images/7/dense_graph.svg)
-![Dense Graph as Matrix](../../images/7/dense_matrix.svg)
-![Dense Graph as List](../../images/7/dense_list.svg)
+![Dense Graph](images/7/dense_graph.svg)
+![Dense Graph as Matrix](images/7/dense_matrix.svg)
+![Dense Graph as List](images/7/dense_list.svg)
 
 Sparse
 ---
 
 The following is a sparse graph. 
 
-![Sparse Graph](../../images/7/sparse_graph.svg)
-![Sparse Graph as Matrix](../../images/7/sparse_matrix.svg)
-![Sparse Graph as List](../../images/7/sparse_list.svg)
+![Sparse Graph](images/7/sparse_graph.svg)
+![Sparse Graph as Matrix](images/7/sparse_matrix.svg)
+![Sparse Graph as List](images/7/sparse_list.svg)
 
 
 

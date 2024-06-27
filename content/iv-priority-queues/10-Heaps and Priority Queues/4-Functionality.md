@@ -3,10 +3,10 @@ title: "Functionality"
 weight: 20
 pre: "4. "
 ---
-{{% youtube z1q2XXfWttA %}}
+{{< youtube z1q2XXfWttA  >}}
 
 
-![](../../images/10/guides_img_pythonpquml.png)
+![](images/10/guides_img_pythonpquml.png)
 
 Attributes
 ---
@@ -16,7 +16,7 @@ The priority queue will have a single attribute which will be the array to repre
 {{% notice info %}}
 
 Since arrays start at index zero, we will set the first element equal to a null value and the element at index 1 will be the start of our priority queue. 
-![](../../images/10/null_at_zero.svg)
+![](images/10/null_at_zero.svg)
 
 {{% / notice %}}
 
@@ -53,7 +53,7 @@ Heapify
 ---
 
 The `HEAPIFY` function will allow us to translate our data into a heap. It will take as input a list of priorities and a list of items. Suppose in the figure below, we are calling Prim's function from node 1. Thus, we want to start our heap with the outgoing edges of node 1. We will input the list of priorities, which in this case are the edge weights, and the list of the items. For this application, we have made the items ordered pairs where the first entry is the source node and the second is the target. 
-![](../../images/10/heapify.svg)
+![](images/10/heapify.svg)
 
 Since we are working primarily with min-priority queues, we will define `HEAPIFY` in those terms. Though, we could have an equivalent function for a max-priority queue.
 

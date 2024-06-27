@@ -3,7 +3,7 @@ title: "Breadth First"
 weight: 15
 pre: "3. "
 ---
-{{% youtube FViSRGbGn54 %}}
+{{< youtube FViSRGbGn54  >}}
 
 [Video Slides](https://core.cs.ksu.edu/4-cc315/08-graph-traversal/03-graph-traversals-bfs-slides/#/)
 
@@ -20,7 +20,7 @@ Recall that a queue is a 'First In First Out' (FIFO) structure. Based on this, t
 Again, we must pick a starting node; this can be an arbitrary node in our graph. We add the starting node to our queue and the set of discovered nodes. We start a while loop to go through the queue which we will be enqueue  and dequeue from. We get the first element of the queue, then get the neighbors of the current node. We loop through each edge adding the neighbor to the discovered set and the queue if it has not already been discovered. We continue this process until the queue is empty. 
 
 
-![BFS Example GIF](../../images/8/SEARCH_BFS.gif)
+![BFS Example GIF](images/8/SEARCH_BFS.gif)
 
 
 ``` tex

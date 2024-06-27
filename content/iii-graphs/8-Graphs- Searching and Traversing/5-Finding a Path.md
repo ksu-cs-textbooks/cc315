@@ -3,7 +3,7 @@ title: "Finding a Path"
 weight: 25
 pre: "5. "
 ---
-{{% youtube DKy-q1hWPpQ %}}
+{{< youtube DKy-q1hWPpQ  >}}
 
 
 An important application for these traversals is the ability to find a path between two nodes. This has many applications in railroad networks as well as electrical wiring. With some modifications to the traversals, we can determine if electricity can flow from a source to a target. We will modify depth first and breadth first traversals in similar ways.
@@ -64,7 +64,7 @@ Depth First Search (DFS)
 
 DFS Example
 ---
-![DFS Example GIF](../../images/8/DFS.gif)
+![DFS Example GIF](images/8/DFS.gif)
 
 
 Breadth First Search (BFS)
@@ -100,4 +100,4 @@ Breadth First Search (BFS)
 
 BFS Example
 ---
-![BFS Example GIF](../../images/8/BFS.gif)
+![BFS Example GIF](images/8/BFS.gif)

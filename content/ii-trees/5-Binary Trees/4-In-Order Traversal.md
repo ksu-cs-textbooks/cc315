@@ -3,7 +3,7 @@ title: "In-Order Traversal"
 weight: 20
 pre: "4. "
 ---
-{{% youtube uyM6L6xqn_8 %}}
+{{< youtube uyM6L6xqn_8  >}}
 
 Since we have fixed order on the children, we can introduce another type of traversal: in-order traversal.
 
@@ -14,4 +14,4 @@ Since we have fixed order on the children, we can introduce another type of trav
     
     - Remember: Left Root Right 
     
-![In-order](../../images/4/4Binary_In.gif)
+![In-order](images/4/4Binary_In.gif)

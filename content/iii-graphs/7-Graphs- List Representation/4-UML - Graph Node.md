@@ -3,11 +3,11 @@ title: "UML - Graph Node"
 weight: 20
 pre: "4. "
 ---
-{{% youtube BVgbAW7NZY8 %}}
+{{< youtube BVgbAW7NZY8  >}}
 
 In this representation, we will have an array of graph node objects. We will first cover the UML for the graph node objects and then discuss the graph functions and attributes. 
 
-![List Graph UML for Nodes](../../images/7/graphs_listUML_node.svg)
+![List Graph UML for Nodes](images/7/graphs_listUML_node.svg)
 
 
 Attributes

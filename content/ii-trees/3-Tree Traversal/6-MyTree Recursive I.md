@@ -28,18 +28,18 @@ Recall that in the previous module, we were not yet able to enforce the no cycle
 {{% / notice %}}
 
 In the first module, we discussed how we can define trees recursively, meaning a tree consists of trees. We looked at the following example. Each red dashed line represented a distinct tree, thus we had five trees within the largest tree making six trees in total. 
-![Subtrees](../../images/2/2Tree_SubTree.png)
+![Subtrees](images/2/2Tree_SubTree.png)
 
 We will use our existing implementation from the first module. Now to make our tree recursive, we will include more getter functions as well as functions for traversals and defining node relationships.
 
-![UML](../../images/3/rec_tree_uml.png)
+![UML](images/3/rec_tree_uml.png)
 
 ---
 
 ### Get depth, height, size, and root
 We can define each of these recursively. 
 
-{{% youtube 3mFKHgv6bhk %}}
+{{< youtube 3mFKHgv6bhk  >}}
 
 ##### Get Depth
 

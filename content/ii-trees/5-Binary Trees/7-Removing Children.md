@@ -3,7 +3,7 @@ title: "Removing Children"
 weight: 35
 pre: "7. "
 ---
-{{% youtube uyhC6GcyBW4 %}}
+{{< youtube uyhC6GcyBW4  >}}
 
 Removing children is not as straightforward as inserting them. The general procedure for removing a child is to replace that nodes value with its smallest right descendant. First we will traverse the binary tree until we find the node with the value we are trying to remove (lines 18-32 below). Then we have three separate cases, discussed in detail below.
 
@@ -13,7 +13,7 @@ Removing a leaf is the most straightforward. We remove the value from the node a
 
 Suppose we have this binary tree and we want to remove value `5`. What do you think the resulting binary tree will look like? Click the binary tree to see the result.
 
-<details><summary markdown="span">![Tree to Remove Leaf](../../images/4/4Bin_Remove.png)</summary> ![Result of Remove Leaf](../../images/4/4Bin_Remove2.png) </details>
+<details><summary markdown="span">![Tree to Remove Leaf](images/4/4Bin_Remove.png)</summary> ![Result of Remove Leaf](images/4/4Bin_Remove2.png) </details>
 
 
 Removing a Node without Right Child
@@ -22,7 +22,7 @@ When we remove a value from a node that does not have a right child, we cannot r
 
 Suppose we have this binary tree and we want to remove value `4`. What do you think the resulting binary tree will look like? Click the binary tree to see the result.
 
-<details><summary markdown="span">![Tree to Remove w/o RightChild](../../images/4/4Bin_Remove2.png)</summary> ![Result of Remove w/o RightChild](../../images/4/4Bin_Remove3.png) </details>
+<details><summary markdown="span">![Tree to Remove w/o RightChild](images/4/4Bin_Remove2.png)</summary> ![Result of Remove w/o RightChild](images/4/4Bin_Remove3.png) </details>
 
 Removing a Node with Right Child
 ---
@@ -31,7 +31,7 @@ When we remove a value from a node that has a right child, we can replace the va
 
 Suppose we have this binary tree and we want to remove value `10`. What do you think the resulting binary tree will look like? Click the binary tree to see the result.
 
-<details><summary markdown="span">![Tree to Remove with RightChild](../../images/4/4Bin_Remove.png)</summary> ![Result of Remove with RightChild](../../images/4/4Bin_Remove1.png) </details>
+<details><summary markdown="span">![Tree to Remove with RightChild](images/4/4Bin_Remove.png)</summary> ![Result of Remove with RightChild](images/4/4Bin_Remove1.png) </details>
 
 
 Complete Pseudocode

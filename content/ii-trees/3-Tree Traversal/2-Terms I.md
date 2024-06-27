@@ -3,10 +3,10 @@ title: "Terms I"
 weight: 10
 pre: "2. "
 ---
-{{% youtube uSagfd4L2D8 %}}
+{{< youtube uSagfd4L2D8  >}}
 
 Many of the terms used in trees relate to terms used in family trees. Having this in mind can help us to better understand some of the terminology involved with abstract trees. Here we have a sample family tree. 
-![Family Tree](../../images/3/3Tree_FamilyTree.png)
+![Family Tree](images/3/3Tree_FamilyTree.png)
 
 - `Ancestor` - The ancestors of a node are those reached from child to parent relationships. We can think of this as our parents and our parent's parents, and so on. 
     - Let's look at all of the ancestors of each of our nodes in the family tree.

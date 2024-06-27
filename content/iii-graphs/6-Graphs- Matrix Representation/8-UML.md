@@ -3,10 +3,10 @@ title: "UML"
 weight: 40
 pre: "8. "
 ---
-{{% youtube Alyg8IEC0Os %}}
+{{< youtube Alyg8IEC0Os  >}}
 
 
-![Matrix Graph UML](../../images/6/graphmatUML.svg)
+![Matrix Graph UML](images/6/graphmatUML.svg)
 
 Attributes
 ---

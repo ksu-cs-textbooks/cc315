@@ -3,7 +3,7 @@ title: "Dijkstras"
 weight: 25
 pre: "5. "
 ---
-{{% youtube c_JKrX7QyX4 %}}
+{{< youtube c_JKrX7QyX4  >}}
 
 [Video Slides](https://core.cs.ksu.edu/4-cc315/10-pq/05-pq-dijkstra-alg-slides/)
 
@@ -52,12 +52,12 @@ DIJKSTRAS(GRAPH, SRC)
 
 ```
 
-![Animated demo of Dijkstras Algorithm](../../images/10/DijkstraDemo.gif)^[Shiyu Ji, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons, https://upload.wikimedia.org/wikipedia/commons/e/e4/DijkstraDemo.gif]
+![Animated demo of Dijkstras Algorithm](images/10/DijkstraDemo.gif)^[Shiyu Ji, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons, https://upload.wikimedia.org/wikipedia/commons/e/e4/DijkstraDemo.gif]
 
 
 
 Aside from just finding routes for us to travel, Dijkstra's algorithm can accommodate for any application that can have an abstraction to finding the shortest path. For example, the following animation shows how a robot could utilize Dijkstra's algorithm to find the shortest path with an obstacle in the way. In this example, each node could represent one square foot of floor space and the edges would represent those spaces that are adjacent. In this scenario, we would most likely not have an associated edge weight. If the robot were traversing on a rugged terrain, then we could have the weights represent the difficultly of passing through the terrain from one space to the other. 
-![Robot Path Mapping](../../images/10/Dijkstras_progress_animation.gif)^[Subh83, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Dijkstras_progress_animation.gif]
+![Robot Path Mapping](images/10/Dijkstras_progress_animation.gif)^[Subh83, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Dijkstras_progress_animation.gif]
 
 
 Another practical abstraction is in network routing. In this simplified abstraction, nodes would be routers or switches and the edges would be the physical links between them. The edge weights in this case would be the cost of sending a packet from one router to the next. Dijkstra's algorithm is actively used in protocols such as Intermediate System to Intermediate System (IS-IS) and Open Shortest Path First (OSPF).

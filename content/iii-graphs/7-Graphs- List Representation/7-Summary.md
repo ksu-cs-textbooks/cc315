@@ -3,19 +3,19 @@ title: "Summary"
 weight: 35
 pre: "7. "
 ---
-![Example 1](../../images/6/graphA.svg)
+![Example 1](images/6/graphA.svg)
 
 In this module, we introduced a new way to store the graph data structure. Thus, we now have two ways to work with graphs, in lists and in matrices: 
 
 List Representation
 ---
-![List Representation for Example 1](../../images/7/graphA_list_rep.svg)
+![List Representation for Example 1](images/7/graphA_list_rep.svg)
 
 
 
 Matrix Representation
 ---
-![Matrix Representation for Example 1](../../images/6/matrixA.svg)
+![Matrix Representation for Example 1](images/6/matrixA.svg)
 
 
 While these methods show the same information, there are cases when one way may be more desirable than the other. 

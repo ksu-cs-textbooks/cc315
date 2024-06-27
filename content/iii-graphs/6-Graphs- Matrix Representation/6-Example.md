@@ -11,4 +11,4 @@ In this graph, we also have a couple of loops. This would allow for zoo-guests t
 
 One possible way to tour the zoo for a guest starting at the entrance could be: aquarium, primates, big cats, antelope, giraffes, loop around the giraffes, elephants, aquarium, then exit. Their total payment for just the train would be $14. 
 
-![Zoo Train Map](../../images/6/zoo.svg)
+![Zoo Train Map](images/6/zoo.svg)

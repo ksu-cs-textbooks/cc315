@@ -3,7 +3,7 @@ title: "Module Outline"
 weight: 5
 pre: "1. "
 ---
-{{% youtube OXNdQbHvj8U %}}
+{{< youtube OXNdQbHvj8U  >}}
 
 In this module, we will reintroduce the data structures that we have seen and implemented throughout CC315 as well as CC310. We will discuss the running time for various operations as well as space requirements for each structure. 
 

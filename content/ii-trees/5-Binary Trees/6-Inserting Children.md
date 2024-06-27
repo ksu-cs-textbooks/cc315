@@ -3,18 +3,18 @@ title: "Inserting Children"
 weight: 30
 pre: "6. "
 ---
-{{% youtube qFalue24DdE %}}
+{{< youtube qFalue24DdE  >}}
 
 
 When inserting children to a binary tree, we must take some special considerations. All of the node items in the left tree must be less than the parent node item and all of the node items in the right tree must be greater than the parent node item.
 
 The general procedure for adding a child is the following: 
-![Binary Tree Flowchart](../../images/4/4Binary_AddFlowChart.png)
+![Binary Tree Flowchart](images/4/4Binary_AddFlowChart.png)
 
 
 Suppose that we have the following tree and we want to add a node with item '85'. Click the binary tree to see the resulting tree.
 
-<details><summary markdown="span">![Tree To Add To](../../images/4/4Binary_Add.png)</summary> ![Tree Adding](../../images/4/4Binary_AddChild.gif) </details>
+<details><summary markdown="span">![Tree To Add To](images/4/4Binary_Add.png)</summary> ![Tree Adding](images/4/4Binary_AddChild.gif) </details>
 
 
 ``` tex

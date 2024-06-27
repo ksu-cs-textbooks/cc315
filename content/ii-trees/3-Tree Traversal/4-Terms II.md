@@ -3,11 +3,11 @@ title: "Terms II"
 weight: 20
 pre: "4. "
 ---
-{{% youtube 86uWWXaanCo %}}
+{{< youtube 86uWWXaanCo  >}}
 
 We can describe the sizes of trees and position of nodes using different terminology, like level, depth, and height. 
 
-![Family Tree](../../images/3/3Tree_FamilyTree.png)
+![Family Tree](images/3/3Tree_FamilyTree.png)
 
 - `Level` - The level of a node characterizes the distance between the node and the root. The root of the tree is considered level 1. As you move away from the tree, the level increases by one. 
     - For our family tree example, what nodes are in the following levels? Think about the answer and then click corresponding arrow. 

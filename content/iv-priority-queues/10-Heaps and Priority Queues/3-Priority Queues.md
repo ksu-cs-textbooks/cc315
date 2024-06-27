@@ -3,16 +3,16 @@ title: "Priority Queues"
 weight: 15
 pre: "3. "
 ---
-{{% youtube D1t017tFAvA %}}
+{{< youtube D1t017tFAvA  >}}
 
 A natural implementation of heaps is priority queues. 
 
 A **priority queue** is a data structure which contains elements and each element has an associated key value. The key for an element corresponds to its importance. In real world applications, these can be used for prioritizing work tickets, emails, and much more. 
-![](../../images/10/todo_bubble.svg)
+![](images/10/todo_bubble.svg)
 
 We can use a heap to organize this data for us. 
 
-![](../../images/10/todo_tree_array.svg)
+![](images/10/todo_tree_array.svg)
 
 
 

@@ -3,11 +3,11 @@ title: "MyBinaryTree"
 weight: 25
 pre: "5. "
 ---
-{{% youtube 0U5EXtcHcsU %}}
+{{< youtube 0U5EXtcHcsU  >}}
 
 Our implementation of binary trees will inherit from our MyTree implementation as binary trees are types of trees. Thus, MyBinaryTree will have the functionality of MyTree in addition to the following. 
 
-![UML](../../images/4/binary_uml.png)
+![UML](images/4/binary_uml.png)
 
 Attributes
 ---

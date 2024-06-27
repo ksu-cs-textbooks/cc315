@@ -3,7 +3,7 @@ title: "Node and Edge Functions"
 weight: 45
 pre: "9. "
 ---
-{{% youtube MNoJEn_EvBk %}}
+{{< youtube MNoJEn_EvBk  >}}
 
 - `add node`: will add a node to the graph with the given value if our graph still has room. Procedurally, we will try to put the node in the first empty place we find. To do this, we start with `IDX` equal to negative one then loop through all of the indexes of the graphs `nodes` attribute. At each index, we check if that entry is equal to the value we are trying to add. This will check if the value is already in our graph. If there is nothing in that entry and the `IDX` variable is still negative one, then we will set `IDX` equal to that index. We continue looping through the `nodes` attribute until we reach the end. It is possible that there is more than one open space in the `nodes` attribute. Thus, by checking if `IDX` is still negative one we can make sure to put `value` in the first empty spot. Once we finish going through `nodes` we check to see if we ever found an open spot. If `IDX` is still negative one, this would indicate that there was no room. Otherwise, we put `value` into `nodes` at spot `IDX` and increment the size.
 
