@@ -689,17 +689,17 @@
     <link href="/cc315/iv-priority-queues/10-heaps-and-priority-queues/2-node-relationships/index.print.html" rel="alternate" type="text/html" title="Node Relationships :: CC 315 Textbook">
     <link href="/cc315/iv-priority-queues/10-heaps-and-priority-queues/2-node-relationships/tele.html" rel="alternate" type="text/html" title="Node Relationships :: CC 315 Textbook">
     <link href="/cc315/iv-priority-queues/10-heaps-and-priority-queues/2-node-relationships/embed.html" rel="alternate" type="text/html" title="Node Relationships :: CC 315 Textbook">
-    <link href="/cc315/css/fontawesome-all.min.css?1719522767" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1719522767" rel="stylesheet"></noscript>
-    <link href="/cc315/css/nucleus.css?1719522767" rel="stylesheet">
-    <link href="/cc315/css/auto-complete.css?1719522767" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1719522767" rel="stylesheet"></noscript>
-    <link href="/cc315/css/perfect-scrollbar.min.css?1719522767" rel="stylesheet">
-    <link href="/cc315/css/fonts.css?1719522767" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1719522767" rel="stylesheet"></noscript>
-    <link href="/cc315/css/theme.css?1719522767" rel="stylesheet">
-    <link href="/cc315/css/theme-auto.css?1719522767" rel="stylesheet" id="R-variant-style">
-    <link href="/cc315/css/chroma-auto.css?1719522767" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc315/css/variant.css?1719522767" rel="stylesheet">
-    <link href="/cc315/css/print.css?1719522767" rel="stylesheet" media="print">
-    <script src="/cc315/js/variant.js?1719522767"></script>
+    <link href="/cc315/css/fontawesome-all.min.css?1737135051" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1737135051" rel="stylesheet"></noscript>
+    <link href="/cc315/css/nucleus.css?1737135051" rel="stylesheet">
+    <link href="/cc315/css/auto-complete.css?1737135051" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1737135051" rel="stylesheet"></noscript>
+    <link href="/cc315/css/perfect-scrollbar.min.css?1737135051" rel="stylesheet">
+    <link href="/cc315/css/fonts.css?1737135051" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1737135051" rel="stylesheet"></noscript>
+    <link href="/cc315/css/theme.css?1737135051" rel="stylesheet">
+    <link href="/cc315/css/theme-auto.css?1737135051" rel="stylesheet" id="R-variant-style">
+    <link href="/cc315/css/chroma-auto.css?1737135051" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc315/css/variant.css?1737135051" rel="stylesheet">
+    <link href="/cc315/css/print.css?1737135051" rel="stylesheet" media="print">
+    <script src="/cc315/js/variant.js?1737135051"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -719,7 +719,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc315/css/custom.css?1719522767" rel="stylesheet">
+    <link href="/cc315/css/custom.css?1737135051" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc315/iv-priority-queues/10-heaps-and-priority-queues/2-node-relationships/">
     <div id="R-body" class="default-animation">
@@ -788,8 +788,8 @@
     </div>
 
 <p>Heaps can be viewed in two forms: as a tree or as an array. We will use the array style in code but we can have the tree structure in the back of our mind to help understand the order of the data. Here is an example of the heap as a tree on the left and the heap as an array on the right.
-<a href="#R-image-5b6745bcb419674903dfdea62a2612d5" class="lightbox-link"><img class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/10/Mod10_heap_and_array_numbered.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5b6745bcb419674903dfdea62a2612d5"><img class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/10/Mod10_heap_and_array_numbered.svg"></a>
+<a href="#R-image-b14f0c5afedb27258d50d8fde50ddf27" class="lightbox-link"><img class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/10/Mod10_heap_and_array_numbered.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b14f0c5afedb27258d50d8fde50ddf27"><img class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/10/Mod10_heap_and_array_numbered.svg"></a>
 The root of the heap will always be the first element. Then we can base the numbering of the following nodes from left to right and top to bottom. For example, the left child of the root will be the second entry and the right child will be the third.</p>
 <h2 id="accessing-indexes">Accessing Indexes</h2>
 <p>For full functionality of our heap, we want to be able to easily determine the parent of a node as well as the children of a node.</p>
@@ -820,8 +820,8 @@ The root of the heap will always be the first element. Then we can base the numb
 </ul>
 </div>
 </div>
-<p><a href="#R-image-88117b505a04e465ee54ef8d61351057" class="lightbox-link"><img class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/10/heap_numbering.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-88117b505a04e465ee54ef8d61351057"><img class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/10/heap_numbering.svg"></a></p>
+<p><a href="#R-image-60d3b41d45637d43cd113d2acb4fa670" class="lightbox-link"><img class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/10/heap_numbering.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-60d3b41d45637d43cd113d2acb4fa670"><img class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/10/heap_numbering.svg"></a></p>
 <table>
 <thead>
 <tr>
@@ -878,8 +878,8 @@ The root of the heap will always be the first element. Then we can base the numb
 </table>
 <hr>
 <p>Consider the following example and try to work some out for yourself.</p>
-<p><a href="#R-image-14743315d6f16b96a7a675ce669b4f3e" class="lightbox-link"><img class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/10/Mod10_justarray.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-14743315d6f16b96a7a675ce669b4f3e"><img class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/10/Mod10_justarray.svg"></a></p>
+<p><a href="#R-image-0eeb4680d792254afbf9763f612c88e2" class="lightbox-link"><img class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/10/Mod10_justarray.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0eeb4680d792254afbf9763f612c88e2"><img class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/10/Mod10_justarray.svg"></a></p>
 <p>For example, if we ask for the parent of the node with value 27, our answer would be the node with value 35 The node with value 27 has index 5. Thus, the parent of that node will have index <code>floor(5/2)=2</code>. Node 35 is at index two, as such, node 35 is the parent of node 27.</p>
 <details><summary markdown="span">Left child of the node with value 24:</summary>The node with value three. Node 24 has index 4, so the left child will be at index 2*4=8. That corresponds to the node with value 3.</details>
 <details><summary markdown="span">Right child of the node with value 44:</summary>The node with value twelve. Node 44 has index 3, so the right child will be at index (2*3)+1=7. That corresponds to the node with value 12.</details>
@@ -892,8 +892,8 @@ The root of the heap will always be the first element. Then we can base the numb
   <div class="box-content">
 
 <p>In a heap where <code>n</code> is the size of heap, the elements <code>floor(n/2)+1</code> through <code>n</code> will always be leaves. If we assume that we have just the 12 elements in this example, then based on this formula, elements 7 through 12 must be leaves. We can verify this in the tree representation!
-<a href="#R-image-4b70e5e5a82459585fe25e735873a891" class="lightbox-link"><img class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/10/heap_numbering.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4b70e5e5a82459585fe25e735873a891"><img class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/10/heap_numbering.svg"></a></p>
+<a href="#R-image-8d3b3451d9986606e554e383556d50b6" class="lightbox-link"><img class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/10/heap_numbering.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8d3b3451d9986606e554e383556d50b6"><img class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/10/heap_numbering.svg"></a></p>
 </div>
 </div>
 
@@ -940,12 +940,12 @@ The root of the heap will always be the first element. Then we can base the numb
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc315/js/auto-complete.js?1719522767" defer></script>
-        <script src="/cc315/js/lunr/lunr.min.js?1719522767" defer></script>
-        <script src="/cc315/js/lunr/lunr.stemmer.support.min.js?1719522767" defer></script>
-        <script src="/cc315/js/lunr/lunr.multi.min.js?1719522767" defer></script>
-        <script src="/cc315/js/lunr/lunr.en.min.js?1719522767" defer></script>
-        <script src="/cc315/js/search.js?1719522767" defer></script>
+        <script src="/cc315/js/auto-complete.js?1737135051" defer></script>
+        <script src="/cc315/js/lunr/lunr.min.js?1737135051" defer></script>
+        <script src="/cc315/js/lunr/lunr.stemmer.support.min.js?1737135051" defer></script>
+        <script src="/cc315/js/lunr/lunr.multi.min.js?1737135051" defer></script>
+        <script src="/cc315/js/lunr/lunr.en.min.js?1737135051" defer></script>
+        <script src="/cc315/js/search.js?1737135051" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1106,8 +1106,8 @@ The root of the heap will always be the first element. Then we can base the numb
         </div>
       </div>
     </aside>
-    <script src="/cc315/js/clipboard.min.js?1719522767" defer></script>
-    <script src="/cc315/js/perfect-scrollbar.min.js?1719522767" defer></script>
-    <script src="/cc315/js/theme.js?1719522767" defer></script>
+    <script src="/cc315/js/clipboard.min.js?1737135051" defer></script>
+    <script src="/cc315/js/perfect-scrollbar.min.js?1737135051" defer></script>
+    <script src="/cc315/js/theme.js?1737135051" defer></script>
   </body>
 </html>

@@ -688,18 +688,18 @@
     <link href="/cc315/iii-graphs/7-graphs--list-representation/index.xml" rel="alternate" type="application/rss+xml" title="Graphs: List Representation :: CC 315 Textbook">
     <link href="/cc315/iii-graphs/7-graphs--list-representation/tele.html" rel="alternate" type="text/html" title="Graphs: List Representation :: CC 315 Textbook">
     <link href="/cc315/iii-graphs/7-graphs--list-representation/embed.html" rel="alternate" type="text/html" title="Graphs: List Representation :: CC 315 Textbook">
-    <link href="/cc315/css/fontawesome-all.min.css?1719522771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1719522771" rel="stylesheet"></noscript>
-    <link href="/cc315/css/nucleus.css?1719522771" rel="stylesheet">
-    <link href="/cc315/css/auto-complete.css?1719522771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1719522771" rel="stylesheet"></noscript>
-    <link href="/cc315/css/perfect-scrollbar.min.css?1719522771" rel="stylesheet">
-    <link href="/cc315/css/fonts.css?1719522771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1719522771" rel="stylesheet"></noscript>
-    <link href="/cc315/css/theme.css?1719522771" rel="stylesheet">
-    <link href="/cc315/css/theme-auto.css?1719522771" rel="stylesheet" id="R-variant-style">
-    <link href="/cc315/css/chroma-auto.css?1719522771" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc315/css/variant.css?1719522771" rel="stylesheet">
-    <link href="/cc315/css/print.css?1719522771" rel="stylesheet" media="print">
-    <link href="/cc315/css/format-print.css?1719522771" rel="stylesheet">
-    <script src="/cc315/js/variant.js?1719522771"></script>
+    <link href="/cc315/css/fontawesome-all.min.css?1737135054" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1737135054" rel="stylesheet"></noscript>
+    <link href="/cc315/css/nucleus.css?1737135054" rel="stylesheet">
+    <link href="/cc315/css/auto-complete.css?1737135054" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1737135054" rel="stylesheet"></noscript>
+    <link href="/cc315/css/perfect-scrollbar.min.css?1737135054" rel="stylesheet">
+    <link href="/cc315/css/fonts.css?1737135054" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1737135054" rel="stylesheet"></noscript>
+    <link href="/cc315/css/theme.css?1737135054" rel="stylesheet">
+    <link href="/cc315/css/theme-auto.css?1737135054" rel="stylesheet" id="R-variant-style">
+    <link href="/cc315/css/chroma-auto.css?1737135054" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc315/css/variant.css?1737135054" rel="stylesheet">
+    <link href="/cc315/css/print.css?1737135054" rel="stylesheet" media="print">
+    <link href="/cc315/css/format-print.css?1737135054" rel="stylesheet">
+    <script src="/cc315/js/variant.js?1737135054"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -719,7 +719,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc315/css/custom.css?1719522771" rel="stylesheet">
+    <link href="/cc315/css/custom.css?1737135054" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc315/iii-graphs/7-graphs--list-representation/">
     <div id="R-body" class="default-animation">
@@ -804,25 +804,25 @@
 <a href="https://www.youtube.com/watch?v=MJqStsuqf_U">YouTube Video</a>
 
 <p>In the matrix representation, we had an array of the node items. In the list representation, we will have an array of node objects. Each <strong>node object</strong> will keep track of the node item, the node index, and the outgoing edges.</p>
-<p><a href="#R-image-ad2966a96c10df599119a0508373bc95" class="lightbox-link"><img alt="Set Up" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/list_graph_setup.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ad2966a96c10df599119a0508373bc95"><img alt="Set Up" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/list_graph_setup.svg"></a></p>
+<p><a href="#R-image-9fc96ceccb8f25afdb63d1d74d5fba16" class="lightbox-link"><img alt="Set Up" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/list_graph_setup.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9fc96ceccb8f25afdb63d1d74d5fba16"><img alt="Set Up" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/list_graph_setup.svg"></a></p>
 <p>The <code>item</code> can be any object and the <code>index</code> will be a value within our capacity. The <code>edges</code> will be a list of pairs where the first entry is the index of the target node and the second entry is the weight of the edge.</p>
 <p>Since each node will track its neighbors, it is important that we are consistent in our indexing of nodes. If our nodes were to get out of order, then our edges would as well.</p>
 <h2 id="example-1">Example 1</h2>
 <p>Consider the following graph which we saw in the matrix representation.</p>
-<p><a href="#R-image-7e054b8ff44dff4e13f295327f1e4ae7" class="lightbox-link"><img alt="Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/6/graphA.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7e054b8ff44dff4e13f295327f1e4ae7"><img alt="Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/6/graphA.svg"></a></p>
+<p><a href="#R-image-680a7a4e4802e1397f1a9a4521d8b6f1" class="lightbox-link"><img alt="Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/6/graphA.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-680a7a4e4802e1397f1a9a4521d8b6f1"><img alt="Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/6/graphA.svg"></a></p>
 <p>The following list of nodes depicts the graph above. We can see that each node object has the item and index.</p>
 <p>If we look closer at the <code>edges</code> of the node with item <code>A</code> and index <code>1</code>, we see that the set of edges is equal to <code>[(4, 3.0), (6, 4.0)]</code>. This corresponds to the fact that there are two edges with the source as node <code>1</code>. The first ordered pair, <code>(4, 3.0)</code>, means that there is an edge with source node <code>1</code> (<code>A</code>) and target node <code>4</code> (<code>D</code>) that has weight <code>3</code>. We can confirm that in our graph we do have an edge from <code>A</code> to <code>D</code> with weight <code>3</code>.</p>
-<p><a href="#R-image-fee67b391c4908ef6c9dee335751bcab" class="lightbox-link"><img alt="List Representation for Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/graphA_list_rep.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fee67b391c4908ef6c9dee335751bcab"><img alt="List Representation for Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/graphA_list_rep.svg"></a></p>
+<p><a href="#R-image-758f978e793137b8e2feed2d14dbd4e1" class="lightbox-link"><img alt="List Representation for Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/graphA_list_rep.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-758f978e793137b8e2feed2d14dbd4e1"><img alt="List Representation for Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/graphA_list_rep.svg"></a></p>
 <h2 id="example-2">Example 2</h2>
 <p>The following includes a couple of examples of loops within our graph.</p>
-<p><a href="#R-image-8965050892eadf0e38ee8bd830cbb160" class="lightbox-link"><img alt="Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/6/graphB.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8965050892eadf0e38ee8bd830cbb160"><img alt="Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/6/graphB.svg"></a></p>
+<p><a href="#R-image-1d3fc583340b4d59c0a082f2a2736b6b" class="lightbox-link"><img alt="Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/6/graphB.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1d3fc583340b4d59c0a082f2a2736b6b"><img alt="Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/6/graphB.svg"></a></p>
 <p>We have loops on nodes <code>D</code>, <code>E</code>, and <code>F</code> in our graph. Recall that a loop is an edge where the source and target are the same. For example, we have an edge with source <code>D</code> and target <code>D</code> that has weight <code>12</code>. We see this in our list representation in the node object with item <code>D</code> and index <code>4</code>, where we have the entry <code>(4,12.0)</code> in the edges.</p>
-<p><a href="#R-image-454897aa328877c782db8f28a370d8ff" class="lightbox-link"><img alt="List Representation for Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/graphB_list_rep.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-454897aa328877c782db8f28a370d8ff"><img alt="List Representation for Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/graphB_list_rep.svg"></a></p>
+<p><a href="#R-image-506ac62af2bcba2414e6405dbed649da" class="lightbox-link"><img alt="List Representation for Example 2" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/graphB_list_rep.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-506ac62af2bcba2414e6405dbed649da"><img alt="List Representation for Example 2" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/graphB_list_rep.svg"></a></p>
 
             <footer class="footline">
               
@@ -861,20 +861,20 @@
 <p>Let&rsquo;s look at some motivating examples to get an idea of how the different structures will handle these cases.</p>
 <h2 id="dense">Dense</h2>
 <p>The following is a dense graph. In this case, our graph does have the maximum number of edges. This means that every node is connected to every other node including itself.</p>
-<p><a href="#R-image-6d4ea1f02ee50fd55d7760f132e8449d" class="lightbox-link"><img alt="Dense Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/dense_graph.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6d4ea1f02ee50fd55d7760f132e8449d"><img alt="Dense Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/dense_graph.svg"></a>
-<a href="#R-image-768af4272c2f51926bf1fe38f2313627" class="lightbox-link"><img alt="Dense Graph as Matrix" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/dense_matrix.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-768af4272c2f51926bf1fe38f2313627"><img alt="Dense Graph as Matrix" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/dense_matrix.svg"></a>
-<a href="#R-image-3ef576feed2815653adf48dce7587662" class="lightbox-link"><img alt="Dense Graph as List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/dense_list.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3ef576feed2815653adf48dce7587662"><img alt="Dense Graph as List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/dense_list.svg"></a></p>
+<p><a href="#R-image-90088ddb4ec127f3ecbb71e6aa6165e2" class="lightbox-link"><img alt="Dense Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/dense_graph.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-90088ddb4ec127f3ecbb71e6aa6165e2"><img alt="Dense Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/dense_graph.svg"></a>
+<a href="#R-image-f4557bbc4bf75f0750d7b7d03a3fae51" class="lightbox-link"><img alt="Dense Graph as Matrix" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/dense_matrix.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f4557bbc4bf75f0750d7b7d03a3fae51"><img alt="Dense Graph as Matrix" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/dense_matrix.svg"></a>
+<a href="#R-image-33722a64e480edae635b88015960805e" class="lightbox-link"><img alt="Dense Graph as List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/dense_list.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-33722a64e480edae635b88015960805e"><img alt="Dense Graph as List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/dense_list.svg"></a></p>
 <h2 id="sparse">Sparse</h2>
 <p>The following is a sparse graph.</p>
-<p><a href="#R-image-9e85a5cc64d3c8fbd2371ef9d34a3ae1" class="lightbox-link"><img alt="Sparse Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/sparse_graph.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9e85a5cc64d3c8fbd2371ef9d34a3ae1"><img alt="Sparse Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/sparse_graph.svg"></a>
-<a href="#R-image-7e5a102ba691b47bf17bf288f3d10160" class="lightbox-link"><img alt="Sparse Graph as Matrix" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/sparse_matrix.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7e5a102ba691b47bf17bf288f3d10160"><img alt="Sparse Graph as Matrix" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/sparse_matrix.svg"></a>
-<a href="#R-image-18230ce7e9fa792ff602a4949a63dbaf" class="lightbox-link"><img alt="Sparse Graph as List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/sparse_list.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-18230ce7e9fa792ff602a4949a63dbaf"><img alt="Sparse Graph as List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/sparse_list.svg"></a></p>
+<p><a href="#R-image-1ced6771bc87d8e9d0ab6c9ca5721aa4" class="lightbox-link"><img alt="Sparse Graph" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/sparse_graph.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1ced6771bc87d8e9d0ab6c9ca5721aa4"><img alt="Sparse Graph" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/sparse_graph.svg"></a>
+<a href="#R-image-a19020b39f477295de0fb7b7ebe03d24" class="lightbox-link"><img alt="Sparse Graph as Matrix" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/sparse_matrix.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a19020b39f477295de0fb7b7ebe03d24"><img alt="Sparse Graph as Matrix" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/sparse_matrix.svg"></a>
+<a href="#R-image-a32cb8d7fee65350a815bc4158bdff74" class="lightbox-link"><img alt="Sparse Graph as List" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/sparse_list.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a32cb8d7fee65350a815bc4158bdff74"><img alt="Sparse Graph as List" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/sparse_list.svg"></a></p>
 <h2 id="list-or-matrix">List or Matrix?</h2>
 <p>For dense graphs, the matrix representation will have better qualities as we are already setting aside space for the maximum number of edges. Sparse graphs are better represented in the list representation.</p>
 <p>When we initialize the matrix implementation, we initialize the <code>nodes</code> attribute to have dimension equal to the capacity of the graph. The <code>edges</code> attribute is initialized to be a square matrix with dimension equal to capacity by capacity. Thus, if we have a sparse matrix, we are representing a lot of non-existent edges.</p>
@@ -910,8 +910,8 @@
 <a href="https://www.youtube.com/watch?v=BVgbAW7NZY8">YouTube Video</a>
 
 <p>In this representation, we will have an array of graph node objects. We will first cover the UML for the graph node objects and then discuss the graph functions and attributes.</p>
-<p><a href="#R-image-654037d7eb89bbc3f334547294de2a93" class="lightbox-link"><img alt="List Graph UML for Nodes" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/graphs_listUML_node.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-654037d7eb89bbc3f334547294de2a93"><img alt="List Graph UML for Nodes" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/graphs_listUML_node.svg"></a></p>
+<p><a href="#R-image-e2666fee8e90f5857a9a85b1a4c57b8f" class="lightbox-link"><img alt="List Graph UML for Nodes" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/graphs_listUML_node.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e2666fee8e90f5857a9a85b1a4c57b8f"><img alt="List Graph UML for Nodes" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/graphs_listUML_node.svg"></a></p>
 <h2 id="attributes">Attributes</h2>
 <ul>
 <li><code>item</code>: the value that the node contains.</li>
@@ -982,8 +982,8 @@
 
 <a href="https://www.youtube.com/watch?v=A6HVJWM3VS4">YouTube Video</a>
 
-<p><a href="#R-image-c52bdb7b38825b5c5c6641baa2341df7" class="lightbox-link"><img alt="List Graph UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/graphs_listUML_graph.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c52bdb7b38825b5c5c6641baa2341df7"><img alt="List Graph UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/graphs_listUML_graph.svg"></a></p>
+<p><a href="#R-image-a0eed3f0a31bb0055b2cc01af6510377" class="lightbox-link"><img alt="List Graph UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/graphs_listUML_graph.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a0eed3f0a31bb0055b2cc01af6510377"><img alt="List Graph UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/graphs_listUML_graph.svg"></a></p>
 <h2 id="attributes">Attributes</h2>
 <ul>
 <li><code>nodes</code>: This will keep track of the nodes which are in our graph as well as the node values. The nodes can have any type of value such as numbers, characters, and even other data structures.</li>
@@ -1152,15 +1152,15 @@
 
 <h1 id="summary">Summary</h1>
 
-<p><a href="#R-image-39446538ed180100088f67e263dade4c" class="lightbox-link"><img alt="Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/6/graphA.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-39446538ed180100088f67e263dade4c"><img alt="Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/6/graphA.svg"></a></p>
+<p><a href="#R-image-757cc5bc72c23d6166ddd5d19b9cd7a4" class="lightbox-link"><img alt="Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/6/graphA.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-757cc5bc72c23d6166ddd5d19b9cd7a4"><img alt="Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/6/graphA.svg"></a></p>
 <p>In this module, we introduced a new way to store the graph data structure. Thus, we now have two ways to work with graphs, in lists and in matrices:</p>
 <h2 id="list-representation">List Representation</h2>
-<p><a href="#R-image-4aa1b434e71acef47af8e9dbcf41b86c" class="lightbox-link"><img alt="List Representation for Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/graphA_list_rep.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4aa1b434e71acef47af8e9dbcf41b86c"><img alt="List Representation for Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/graphA_list_rep.svg"></a></p>
+<p><a href="#R-image-b03c712d02a0290e30f053f7d5a64306" class="lightbox-link"><img alt="List Representation for Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/7/graphA_list_rep.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b03c712d02a0290e30f053f7d5a64306"><img alt="List Representation for Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/7/graphA_list_rep.svg"></a></p>
 <h2 id="matrix-representation">Matrix Representation</h2>
-<p><a href="#R-image-096db50c0189056a00089dbdb39ab182" class="lightbox-link"><img alt="Matrix Representation for Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/6/matrixA.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-096db50c0189056a00089dbdb39ab182"><img alt="Matrix Representation for Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/6/matrixA.svg"></a></p>
+<p><a href="#R-image-9c92ff91369dd8f26843631b8fcdce1d" class="lightbox-link"><img alt="Matrix Representation for Example 1" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/6/matrixA.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9c92ff91369dd8f26843631b8fcdce1d"><img alt="Matrix Representation for Example 1" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/6/matrixA.svg"></a></p>
 <p>While these methods show the same information, there are cases when one way may be more desirable than the other.</p>
 <p>We discussed how a sparse graph is better suited for a list representation and a dense graph is better suited for a matrix representation. We also touched on how working with the edges in a list representation can add complexity to our edge functions. If we are needing to access edge weights or update edges frequently, a matrix representation would be a good choice &ndash; especially if we have a lot of nodes.</p>
 
@@ -1186,8 +1186,8 @@
   
     
     </div>
-    <script src="/cc315/js/clipboard.min.js?1719522771" defer></script>
-    <script src="/cc315/js/perfect-scrollbar.min.js?1719522771" defer></script>
-    <script src="/cc315/js/theme.js?1719522771" defer></script>
+    <script src="/cc315/js/clipboard.min.js?1737135054" defer></script>
+    <script src="/cc315/js/perfect-scrollbar.min.js?1737135054" defer></script>
+    <script src="/cc315/js/theme.js?1737135054" defer></script>
   </body>
 </html>

@@ -689,17 +689,17 @@
     <link href="/cc315/ii-trees/4-tries/1-tries/index.print.html" rel="alternate" type="text/html" title="Tries :: CC 315 Textbook">
     <link href="/cc315/ii-trees/4-tries/1-tries/tele.html" rel="alternate" type="text/html" title="Tries :: CC 315 Textbook">
     <link href="/cc315/ii-trees/4-tries/1-tries/embed.html" rel="alternate" type="text/html" title="Tries :: CC 315 Textbook">
-    <link href="/cc315/css/fontawesome-all.min.css?1719522765" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1719522765" rel="stylesheet"></noscript>
-    <link href="/cc315/css/nucleus.css?1719522765" rel="stylesheet">
-    <link href="/cc315/css/auto-complete.css?1719522765" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1719522765" rel="stylesheet"></noscript>
-    <link href="/cc315/css/perfect-scrollbar.min.css?1719522765" rel="stylesheet">
-    <link href="/cc315/css/fonts.css?1719522765" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1719522765" rel="stylesheet"></noscript>
-    <link href="/cc315/css/theme.css?1719522765" rel="stylesheet">
-    <link href="/cc315/css/theme-auto.css?1719522765" rel="stylesheet" id="R-variant-style">
-    <link href="/cc315/css/chroma-auto.css?1719522765" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc315/css/variant.css?1719522765" rel="stylesheet">
-    <link href="/cc315/css/print.css?1719522765" rel="stylesheet" media="print">
-    <script src="/cc315/js/variant.js?1719522765"></script>
+    <link href="/cc315/css/fontawesome-all.min.css?1737135051" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1737135051" rel="stylesheet"></noscript>
+    <link href="/cc315/css/nucleus.css?1737135051" rel="stylesheet">
+    <link href="/cc315/css/auto-complete.css?1737135051" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1737135051" rel="stylesheet"></noscript>
+    <link href="/cc315/css/perfect-scrollbar.min.css?1737135051" rel="stylesheet">
+    <link href="/cc315/css/fonts.css?1737135051" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1737135051" rel="stylesheet"></noscript>
+    <link href="/cc315/css/theme.css?1737135051" rel="stylesheet">
+    <link href="/cc315/css/theme-auto.css?1737135051" rel="stylesheet" id="R-variant-style">
+    <link href="/cc315/css/chroma-auto.css?1737135051" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc315/css/variant.css?1737135051" rel="stylesheet">
+    <link href="/cc315/css/print.css?1737135051" rel="stylesheet" media="print">
+    <script src="/cc315/js/variant.js?1737135051"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -719,7 +719,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc315/css/custom.css?1719522765" rel="stylesheet">
+    <link href="/cc315/css/custom.css?1737135051" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc315/ii-trees/4-tries/1-tries/">
     <div id="R-body" class="default-animation">
@@ -784,8 +784,8 @@
     </div>
 
 <p>Recall that in the beginning of our discussions about trees, we looked at a small tree which contained seven strings as motivation for trees. This was a small example of a trie (pronounced &rsquo;try&rsquo;) which is a type of tree that can represent sets of words.
-<a href="#R-image-0d0f7a9af14785313620b482c3a63cc6" class="lightbox-link"><img alt="Trie Small Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/2/2Tree_SmallWords.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0d0f7a9af14785313620b482c3a63cc6"><img alt="Trie Small Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/2/2Tree_SmallWords.png"></a></p>
+<a href="#R-image-3f4a888c869104713786e39c3566b609" class="lightbox-link"><img alt="Trie Small Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/2/2Tree_SmallWords.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3f4a888c869104713786e39c3566b609"><img alt="Trie Small Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/2/2Tree_SmallWords.png"></a></p>
 <p>Tries can be used for a variety of tasks ranging from leisurely games to accessibility applications. One example is &lsquo;Boggle&rsquo; where players have a set of random letters and try to make as many words as possible. To code this game, we could create a vocabulary with a trie then traverse it to determine if players have played legal words. We can also use tries to provide better typing accessibility. Users could type a few letters of a word and our code could traverse the trie and suggest what letters or words they may be trying to enter.</p>
 <p>A trie is a type of tree with some special characteristics. First it must follow the guidelines of being a tree:</p>
 <ul>
@@ -800,8 +800,8 @@
 <li>Each node has a boolean property to indicate if it is the end of a word.</li>
 </ul>
 <p>In this course, we will display nodes with two circles as a convention to show which nodes are the end of words. Looking at this small trie as an example, we can determine which words are contained in our trie.
-<a href="#R-image-55aa3b86c327f1f07774c6d41c2a3183" class="lightbox-link"><img alt="Trie Small Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/2/2Tree_SmallWords.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-55aa3b86c327f1f07774c6d41c2a3183"><img alt="Trie Small Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/2/2Tree_SmallWords.png"></a>
+<a href="#R-image-a61ee282f1b163407976da3f7f08913f" class="lightbox-link"><img alt="Trie Small Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/2/2Tree_SmallWords.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a61ee282f1b163407976da3f7f08913f"><img alt="Trie Small Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/2/2Tree_SmallWords.png"></a>
 We start at the root, which will typically be an empty string, and traverse to a double lined node. <code>&quot;&quot; -&gt; a -&gt; l -&gt; l</code>. Thus, the word &lsquo;all&rsquo; is contained in our trie. Words within our tries do not have to end at leaves. For example, we can traverse <code>&quot;&quot; -&gt; a</code> for the word &lsquo;a&rsquo;. We say this trie &lsquo;contains&rsquo; seven words: &lsquo;a&rsquo;, &lsquo;an&rsquo;, &lsquo;and&rsquo;, &lsquo;ant&rsquo;, &lsquo;any&rsquo;, &lsquo;all&rsquo;, and &lsquo;alp&rsquo;.</p>
 
             <footer class="footline">
@@ -847,12 +847,12 @@ We start at the root, which will typically be an empty string, and traverse to a
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc315/js/auto-complete.js?1719522765" defer></script>
-        <script src="/cc315/js/lunr/lunr.min.js?1719522765" defer></script>
-        <script src="/cc315/js/lunr/lunr.stemmer.support.min.js?1719522765" defer></script>
-        <script src="/cc315/js/lunr/lunr.multi.min.js?1719522765" defer></script>
-        <script src="/cc315/js/lunr/lunr.en.min.js?1719522765" defer></script>
-        <script src="/cc315/js/search.js?1719522765" defer></script>
+        <script src="/cc315/js/auto-complete.js?1737135051" defer></script>
+        <script src="/cc315/js/lunr/lunr.min.js?1737135051" defer></script>
+        <script src="/cc315/js/lunr/lunr.stemmer.support.min.js?1737135051" defer></script>
+        <script src="/cc315/js/lunr/lunr.multi.min.js?1737135051" defer></script>
+        <script src="/cc315/js/lunr/lunr.en.min.js?1737135051" defer></script>
+        <script src="/cc315/js/search.js?1737135051" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1013,8 +1013,8 @@ We start at the root, which will typically be an empty string, and traverse to a
         </div>
       </div>
     </aside>
-    <script src="/cc315/js/clipboard.min.js?1719522765" defer></script>
-    <script src="/cc315/js/perfect-scrollbar.min.js?1719522765" defer></script>
-    <script src="/cc315/js/theme.js?1719522765" defer></script>
+    <script src="/cc315/js/clipboard.min.js?1737135051" defer></script>
+    <script src="/cc315/js/perfect-scrollbar.min.js?1737135051" defer></script>
+    <script src="/cc315/js/theme.js?1737135051" defer></script>
   </body>
 </html>

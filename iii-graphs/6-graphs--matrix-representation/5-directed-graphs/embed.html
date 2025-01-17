@@ -690,19 +690,19 @@
     <link href="/cc315/iii-graphs/6-graphs--matrix-representation/5-directed-graphs/index.print.html" rel="alternate" type="text/html" title="Directed Graphs :: CC 315 Textbook">
     <link href="/cc315/iii-graphs/6-graphs--matrix-representation/5-directed-graphs/tele.html" rel="alternate" type="text/html" title="Directed Graphs :: CC 315 Textbook">
     
-  <link href="/cc315/css/fontawesome-all.min.css?1719522768" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1719522768" rel="stylesheet"></noscript>
-  <link href="/cc315/css/nucleus.css?1719522768" rel="stylesheet">
-  <link href="/cc315/css/auto-complete.css?1719522768" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1719522768" rel="stylesheet"></noscript>
-  <link href="/cc315/css/perfect-scrollbar.min.css?1719522768" rel="stylesheet">
-  <link href="/cc315/css/fonts.css?1719522768" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1719522768" rel="stylesheet"></noscript>
-  <link href="/cc315/css/theme.css?1719522768" rel="stylesheet">
+  <link href="/cc315/css/fontawesome-all.min.css?1737135052" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1737135052" rel="stylesheet"></noscript>
+  <link href="/cc315/css/nucleus.css?1737135052" rel="stylesheet">
+  <link href="/cc315/css/auto-complete.css?1737135052" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1737135052" rel="stylesheet"></noscript>
+  <link href="/cc315/css/perfect-scrollbar.min.css?1737135052" rel="stylesheet">
+  <link href="/cc315/css/fonts.css?1737135052" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1737135052" rel="stylesheet"></noscript>
+  <link href="/cc315/css/theme.css?1737135052" rel="stylesheet">
   
   
   
-  <link href="/cc315/css/theme-light-theme.css?1719522768" rel="stylesheet" id="R-variant-style">
-  <link href="/cc315/css/chroma-relearn-light.css?1719522768" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc315/css/variant.css?1719522768" rel="stylesheet">
-  <link href="/cc315/css/print.css?1719522768" rel="stylesheet" media="print">
+  <link href="/cc315/css/theme-light-theme.css?1737135052" rel="stylesheet" id="R-variant-style">
+  <link href="/cc315/css/chroma-relearn-light.css?1737135052" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc315/css/variant.css?1737135052" rel="stylesheet">
+  <link href="/cc315/css/print.css?1737135052" rel="stylesheet" media="print">
   
   
   
@@ -725,7 +725,7 @@
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc315/css/custom.css?1719522768" rel="stylesheet">
+  <link href="/cc315/css/custom.css?1737135052" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc315/iii-graphs/6-graphs--matrix-representation/5-directed-graphs/embed.html">
@@ -749,8 +749,8 @@
 
 <p>A <strong>directed</strong> graph is a graph that has a direction associated with each edge. For example, trees are a directed graph. The edge orientation will imply a fixed direction that we can move about nodes. As with trees, the flat end of the arrow will represent the origin and the arrowhead will represent the destination. If an edge has no arrowheads, then it is assumed that we can traverse both directions.</p>
 <p>In the following graph, we have an example distribution network where each store ends up with 5 units in its possession. For example, nine units go from the distribution center to Store A. The distribution center will never receive product from stores as it has no incoming edges.</p>
-<p><a href="#R-image-29b9087c1d60e985942e29f222c1dec3" class="lightbox-link"><img alt="Sample Distribution Network" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/6/distribution-3.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-29b9087c1d60e985942e29f222c1dec3"><img alt="Sample Distribution Network" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/6/distribution-3.svg"></a></p>
+<p><a href="#R-image-da3fba8dedaacc930902f55b994192cc" class="lightbox-link"><img alt="Sample Distribution Network" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/6/distribution-3.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-da3fba8dedaacc930902f55b994192cc"><img alt="Sample Distribution Network" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/6/distribution-3.svg"></a></p>
 <p>Unlike trees, directed graphs can have nodes with multiple incoming edges. We can see an example of this at Store B. The distribution center and Store A both send units to Store B.</p>
 
   
@@ -760,8 +760,8 @@
   <div class="box-content">
 
 <p>In directed graphs, we must be cautious on how we define <strong>adjacent</strong>. For the following, we would say that the source is adjacent to the target. However, the target is not adjacent to the source.</p>
-<p><a href="#R-image-c9d65c8ec3117238121f986d6325c697" class="lightbox-link"><img alt="Source and Target Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/6/src_tar_ex.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c9d65c8ec3117238121f986d6325c697"><img alt="Source and Target Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/6/src_tar_ex.svg"></a></p>
+<p><a href="#R-image-dc8309aae243fb5e9be744cbfc08395a" class="lightbox-link"><img alt="Source and Target Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/6/src_tar_ex.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-dc8309aae243fb5e9be744cbfc08395a"><img alt="Source and Target Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/6/src_tar_ex.svg"></a></p>
 <p>Formally, node A and node B are said to be adjacent if there is an edge from node A to node B.</p>
 </div>
 </div>
@@ -777,8 +777,8 @@
   <div class="box-content">
 
 <p>For the following undirected edge, we would say that the source is adjacent to the target and the target is adjacent to the source.</p>
-<p><a href="#R-image-fa55dbd8a409663e91165bf22350484e" class="lightbox-link"><img alt="Source and Target Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/6/undirected_edge.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fa55dbd8a409663e91165bf22350484e"><img alt="Source and Target Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/6/undirected_edge.svg"></a></p>
+<p><a href="#R-image-cd2e0cabbfd95ccf93caaf089520c8cf" class="lightbox-link"><img alt="Source and Target Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/6/undirected_edge.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cd2e0cabbfd95ccf93caaf089520c8cf"><img alt="Source and Target Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/6/undirected_edge.svg"></a></p>
 </div>
 </div>
 
@@ -805,10 +805,10 @@
 
 
 
-<script src="/cc315/js/clipboard.min.js?1719522768" defer></script>
-<script src="/cc315/js/perfect-scrollbar.min.js?1719522768" defer></script>
-<script src="/cc315/js/theme.js?1719522768" defer></script>
+<script src="/cc315/js/clipboard.min.js?1737135052" defer></script>
+<script src="/cc315/js/perfect-scrollbar.min.js?1737135052" defer></script>
+<script src="/cc315/js/theme.js?1737135052" defer></script>
 
-<script src="/cc315/js/embed-iframe.js?1719522768" defer></script>
+<script src="/cc315/js/embed-iframe.js?1737135052" defer></script>
 </body>
 </html>

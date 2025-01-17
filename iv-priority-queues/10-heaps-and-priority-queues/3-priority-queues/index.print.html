@@ -697,18 +697,18 @@ As with heaps, we can have min-priority queues and max-priority queues.">
     <link href="/cc315/iv-priority-queues/10-heaps-and-priority-queues/3-priority-queues/index.xml" rel="alternate" type="application/rss+xml" title="Priority Queues :: CC 315 Textbook">
     <link href="/cc315/iv-priority-queues/10-heaps-and-priority-queues/3-priority-queues/tele.html" rel="alternate" type="text/html" title="Priority Queues :: CC 315 Textbook">
     <link href="/cc315/iv-priority-queues/10-heaps-and-priority-queues/3-priority-queues/embed.html" rel="alternate" type="text/html" title="Priority Queues :: CC 315 Textbook">
-    <link href="/cc315/css/fontawesome-all.min.css?1719522771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1719522771" rel="stylesheet"></noscript>
-    <link href="/cc315/css/nucleus.css?1719522771" rel="stylesheet">
-    <link href="/cc315/css/auto-complete.css?1719522771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1719522771" rel="stylesheet"></noscript>
-    <link href="/cc315/css/perfect-scrollbar.min.css?1719522771" rel="stylesheet">
-    <link href="/cc315/css/fonts.css?1719522771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1719522771" rel="stylesheet"></noscript>
-    <link href="/cc315/css/theme.css?1719522771" rel="stylesheet">
-    <link href="/cc315/css/theme-auto.css?1719522771" rel="stylesheet" id="R-variant-style">
-    <link href="/cc315/css/chroma-auto.css?1719522771" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc315/css/variant.css?1719522771" rel="stylesheet">
-    <link href="/cc315/css/print.css?1719522771" rel="stylesheet" media="print">
-    <link href="/cc315/css/format-print.css?1719522771" rel="stylesheet">
-    <script src="/cc315/js/variant.js?1719522771"></script>
+    <link href="/cc315/css/fontawesome-all.min.css?1737135054" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1737135054" rel="stylesheet"></noscript>
+    <link href="/cc315/css/nucleus.css?1737135054" rel="stylesheet">
+    <link href="/cc315/css/auto-complete.css?1737135054" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1737135054" rel="stylesheet"></noscript>
+    <link href="/cc315/css/perfect-scrollbar.min.css?1737135054" rel="stylesheet">
+    <link href="/cc315/css/fonts.css?1737135054" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1737135054" rel="stylesheet"></noscript>
+    <link href="/cc315/css/theme.css?1737135054" rel="stylesheet">
+    <link href="/cc315/css/theme-auto.css?1737135054" rel="stylesheet" id="R-variant-style">
+    <link href="/cc315/css/chroma-auto.css?1737135054" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc315/css/variant.css?1737135054" rel="stylesheet">
+    <link href="/cc315/css/print.css?1737135054" rel="stylesheet" media="print">
+    <link href="/cc315/css/format-print.css?1737135054" rel="stylesheet">
+    <script src="/cc315/js/variant.js?1737135054"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -728,7 +728,7 @@ As with heaps, we can have min-priority queues and max-priority queues.">
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc315/css/custom.css?1719522771" rel="stylesheet">
+    <link href="/cc315/css/custom.css?1737135054" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc315/iv-priority-queues/10-heaps-and-priority-queues/3-priority-queues/">
     <div id="R-body" class="default-animation">
@@ -767,11 +767,11 @@ As with heaps, we can have min-priority queues and max-priority queues.">
 
 <p>A natural implementation of heaps is priority queues.</p>
 <p>A <strong>priority queue</strong> is a data structure which contains elements and each element has an associated key value. The key for an element corresponds to its importance. In real world applications, these can be used for prioritizing work tickets, emails, and much more.
-<a href="#R-image-2beed02ef6cde5c8b6ea076879c0a414" class="lightbox-link"><img class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/10/todo_bubble.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2beed02ef6cde5c8b6ea076879c0a414"><img class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/10/todo_bubble.svg"></a></p>
+<a href="#R-image-ac5b1874fe505870919ea34d469cf3ab" class="lightbox-link"><img class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/10/todo_bubble.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ac5b1874fe505870919ea34d469cf3ab"><img class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/10/todo_bubble.svg"></a></p>
 <p>We can use a heap to organize this data for us.</p>
-<p><a href="#R-image-b79a01e338ab58db7836c832bb5f49c1" class="lightbox-link"><img class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/10/todo_tree_array.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b79a01e338ab58db7836c832bb5f49c1"><img class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/10/todo_tree_array.svg"></a></p>
+<p><a href="#R-image-56c6dc334c824055a9a760a7999ee938" class="lightbox-link"><img class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/10/todo_tree_array.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-56c6dc334c824055a9a760a7999ee938"><img class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/10/todo_tree_array.svg"></a></p>
 <p>As with heaps, we can have min-priority queues and max-priority queues. For the applications listed above, a max-priority queue is the most intuitive choice. For this course however, we will focus more on min-priority queues which will give us better functionality for greedy algorithms, like Prim&rsquo;s algorithm.</p>
 <h2 id="prims-revisited">Prim&rsquo;s Revisited</h2>
 <p>For the minimum spanning tree algorithms, using a min-priority queue helps the performance of the algorithms. Recall Prim&rsquo;s algorithm, shown below. Each time we visited a new node, we would add the outgoing edges to the list of available edges, remove the smallest edge, and sort the list.</p>
@@ -828,8 +828,8 @@ As with heaps, we can have min-priority queues and max-priority queues.">
   
     
     </div>
-    <script src="/cc315/js/clipboard.min.js?1719522771" defer></script>
-    <script src="/cc315/js/perfect-scrollbar.min.js?1719522771" defer></script>
-    <script src="/cc315/js/theme.js?1719522771" defer></script>
+    <script src="/cc315/js/clipboard.min.js?1737135054" defer></script>
+    <script src="/cc315/js/perfect-scrollbar.min.js?1737135054" defer></script>
+    <script src="/cc315/js/theme.js?1737135054" defer></script>
   </body>
 </html>

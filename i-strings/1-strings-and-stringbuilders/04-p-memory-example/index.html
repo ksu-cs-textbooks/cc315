@@ -699,17 +699,17 @@ Recall from the memory example the block of pseudocode.
     <link href="/cc315/i-strings/1-strings-and-stringbuilders/04-p-memory-example/index.print.html" rel="alternate" type="text/html" title="Limitations Python :: CC 315 Textbook">
     <link href="/cc315/i-strings/1-strings-and-stringbuilders/04-p-memory-example/tele.html" rel="alternate" type="text/html" title="Limitations Python :: CC 315 Textbook">
     <link href="/cc315/i-strings/1-strings-and-stringbuilders/04-p-memory-example/embed.html" rel="alternate" type="text/html" title="Limitations Python :: CC 315 Textbook">
-    <link href="/cc315/css/fontawesome-all.min.css?1719522764" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1719522764" rel="stylesheet"></noscript>
-    <link href="/cc315/css/nucleus.css?1719522764" rel="stylesheet">
-    <link href="/cc315/css/auto-complete.css?1719522764" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1719522764" rel="stylesheet"></noscript>
-    <link href="/cc315/css/perfect-scrollbar.min.css?1719522764" rel="stylesheet">
-    <link href="/cc315/css/fonts.css?1719522764" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1719522764" rel="stylesheet"></noscript>
-    <link href="/cc315/css/theme.css?1719522764" rel="stylesheet">
-    <link href="/cc315/css/theme-auto.css?1719522764" rel="stylesheet" id="R-variant-style">
-    <link href="/cc315/css/chroma-auto.css?1719522764" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc315/css/variant.css?1719522764" rel="stylesheet">
-    <link href="/cc315/css/print.css?1719522764" rel="stylesheet" media="print">
-    <script src="/cc315/js/variant.js?1719522764"></script>
+    <link href="/cc315/css/fontawesome-all.min.css?1737135050" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1737135050" rel="stylesheet"></noscript>
+    <link href="/cc315/css/nucleus.css?1737135050" rel="stylesheet">
+    <link href="/cc315/css/auto-complete.css?1737135050" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1737135050" rel="stylesheet"></noscript>
+    <link href="/cc315/css/perfect-scrollbar.min.css?1737135050" rel="stylesheet">
+    <link href="/cc315/css/fonts.css?1737135050" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1737135050" rel="stylesheet"></noscript>
+    <link href="/cc315/css/theme.css?1737135050" rel="stylesheet">
+    <link href="/cc315/css/theme-auto.css?1737135050" rel="stylesheet" id="R-variant-style">
+    <link href="/cc315/css/chroma-auto.css?1737135050" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc315/css/variant.css?1737135050" rel="stylesheet">
+    <link href="/cc315/css/print.css?1737135050" rel="stylesheet" media="print">
+    <script src="/cc315/js/variant.js?1737135050"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -729,7 +729,7 @@ Recall from the memory example the block of pseudocode.
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc315/css/custom.css?1719522764" rel="stylesheet">
+    <link href="/cc315/css/custom.css?1737135050" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc315/i-strings/1-strings-and-stringbuilders/04-p-memory-example/">
     <div id="R-body" class="default-animation">
@@ -833,28 +833,28 @@ Recall from the memory example the block of pseudocode.
 <ul>
 <li>
 <p>Initialization: We start by initializing the empty array. <code>RESULT</code> will hold the pointer <code>0x1</code>.
-<a href="#R-image-dd038c5d364d90c755e0b94c0a754b53" class="lightbox-link"><img alt="Initialize" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/1/1SB_mem_map1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-dd038c5d364d90c755e0b94c0a754b53"><img alt="Initialize" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/1/1SB_mem_map1.png"></a></p>
+<a href="#R-image-b126ad3c5c2815b6c6d4d874f019d2c8" class="lightbox-link"><img alt="Initialize" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/1/1SB_mem_map1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b126ad3c5c2815b6c6d4d874f019d2c8"><img alt="Initialize" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/1/1SB_mem_map1.png"></a></p>
 </li>
 <li>
 <p>I = 1: Now we have entered the loop and on line 4, we add more characters to our array. At this point, we would have only entry <code>0x1</code> in our heap and our variable <code>RESULT</code> would have the pointer <code>0x1</code>. Continuing through the code, line 5 determines if <code>I</code> is divisible by 2. In this iteration <code>I = 1</code>, so we take the else branch. We again add characters to our array.  In total, we have written 5 characters. We then increment I and move to the next iteration.<br>
-<a href="#R-image-f6c839a9c1ab4af4de95e16fd01f676c" class="lightbox-link"><img alt="After 1st Loop" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/1/1SB_mem_map3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f6c839a9c1ab4af4de95e16fd01f676c"><img alt="After 1st Loop" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/1/1SB_mem_map3.png"></a></p>
+<a href="#R-image-8d3f7a81744eefa676df6b2617071ef9" class="lightbox-link"><img alt="After 1st Loop" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/1/1SB_mem_map3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8d3f7a81744eefa676df6b2617071ef9"><img alt="After 1st Loop" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/1/1SB_mem_map3.png"></a></p>
 </li>
 <li>
 <p>I = 2: We continue the loop and on line 4, we add more characters to our array. We still have just one entry in memory and our pointer is still <code>0x1</code>. In this iteration, we have written 4 characters. We then increment <code>I</code> and move to the next iteration of the loop.
-<a href="#R-image-9214618611ef70fe67d12c4bbe09796b" class="lightbox-link"><img alt="After 2nd Loop" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/1/1SB_mem_map5.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9214618611ef70fe67d12c4bbe09796b"><img alt="After 2nd Loop" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/1/1SB_mem_map5.png"></a></p>
+<a href="#R-image-e9cd32a26f8c87c72396dc0101da1aaf" class="lightbox-link"><img alt="After 2nd Loop" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/1/1SB_mem_map5.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e9cd32a26f8c87c72396dc0101da1aaf"><img alt="After 2nd Loop" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/1/1SB_mem_map5.png"></a></p>
 </li>
 <li>
 <p>I = 3: We continue the loop and on line 4, we add more characters to our array.  In this iteration, we have written 5 characters. We then increment <code>I</code> and thus <code>I = 4</code> breaking out of the loop.
-<a href="#R-image-e2208df6151f44100422ec82aa2b146d" class="lightbox-link"><img alt="After 3rd Loop" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/1/1SB_mem_map7.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e2208df6151f44100422ec82aa2b146d"><img alt="After 3rd Loop" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/1/1SB_mem_map7.png"></a></p>
+<a href="#R-image-5b40719cb6e8f0a3b7f9f6cd4c087166" class="lightbox-link"><img alt="After 3rd Loop" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/1/1SB_mem_map7.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5b40719cb6e8f0a3b7f9f6cd4c087166"><img alt="After 3rd Loop" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/1/1SB_mem_map7.png"></a></p>
 </li>
 <li>
 <p>Post-Loop: Once the loop breaks, we join the array to create the final string. This creates a new place in memory and changes RESULT to contain the pointer <code>0x2</code>.
-<a href="#R-image-0713f68f6b492af6d8da9fb3ee861d37" class="lightbox-link"><img alt="After Loop Breaks" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/1/1SB_mem_map8.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0713f68f6b492af6d8da9fb3ee861d37"><img alt="After Loop Breaks" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/1/1SB_mem_map8.png"></a></p>
+<a href="#R-image-f9c8fbe78357313730b22203ee3c855e" class="lightbox-link"><img alt="After Loop Breaks" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/1/1SB_mem_map8.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f9c8fbe78357313730b22203ee3c855e"><img alt="After Loop Breaks" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/1/1SB_mem_map8.png"></a></p>
 </li>
 </ul>
 <p>We can do some further analysis of the memory that is required for this particular block.</p>
@@ -945,12 +945,12 @@ Recall from the memory example the block of pseudocode.
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc315/js/auto-complete.js?1719522764" defer></script>
-        <script src="/cc315/js/lunr/lunr.min.js?1719522764" defer></script>
-        <script src="/cc315/js/lunr/lunr.stemmer.support.min.js?1719522764" defer></script>
-        <script src="/cc315/js/lunr/lunr.multi.min.js?1719522764" defer></script>
-        <script src="/cc315/js/lunr/lunr.en.min.js?1719522764" defer></script>
-        <script src="/cc315/js/search.js?1719522764" defer></script>
+        <script src="/cc315/js/auto-complete.js?1737135050" defer></script>
+        <script src="/cc315/js/lunr/lunr.min.js?1737135050" defer></script>
+        <script src="/cc315/js/lunr/lunr.stemmer.support.min.js?1737135050" defer></script>
+        <script src="/cc315/js/lunr/lunr.multi.min.js?1737135050" defer></script>
+        <script src="/cc315/js/lunr/lunr.en.min.js?1737135050" defer></script>
+        <script src="/cc315/js/search.js?1737135050" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -1111,8 +1111,8 @@ Recall from the memory example the block of pseudocode.
         </div>
       </div>
     </aside>
-    <script src="/cc315/js/clipboard.min.js?1719522764" defer></script>
-    <script src="/cc315/js/perfect-scrollbar.min.js?1719522764" defer></script>
-    <script src="/cc315/js/theme.js?1719522764" defer></script>
+    <script src="/cc315/js/clipboard.min.js?1737135050" defer></script>
+    <script src="/cc315/js/perfect-scrollbar.min.js?1737135050" defer></script>
+    <script src="/cc315/js/theme.js?1737135050" defer></script>
   </body>
 </html>

@@ -697,18 +697,18 @@ In the context of graph data structures, we can think of each intersection as a 
     <link href="/cc315/iii-graphs/8-graphs--searching-and-traversing/6-in-practice/index.xml" rel="alternate" type="application/rss+xml" title="In Practice :: CC 315 Textbook">
     <link href="/cc315/iii-graphs/8-graphs--searching-and-traversing/6-in-practice/tele.html" rel="alternate" type="text/html" title="In Practice :: CC 315 Textbook">
     <link href="/cc315/iii-graphs/8-graphs--searching-and-traversing/6-in-practice/embed.html" rel="alternate" type="text/html" title="In Practice :: CC 315 Textbook">
-    <link href="/cc315/css/fontawesome-all.min.css?1719522771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1719522771" rel="stylesheet"></noscript>
-    <link href="/cc315/css/nucleus.css?1719522771" rel="stylesheet">
-    <link href="/cc315/css/auto-complete.css?1719522771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1719522771" rel="stylesheet"></noscript>
-    <link href="/cc315/css/perfect-scrollbar.min.css?1719522771" rel="stylesheet">
-    <link href="/cc315/css/fonts.css?1719522771" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1719522771" rel="stylesheet"></noscript>
-    <link href="/cc315/css/theme.css?1719522771" rel="stylesheet">
-    <link href="/cc315/css/theme-auto.css?1719522771" rel="stylesheet" id="R-variant-style">
-    <link href="/cc315/css/chroma-auto.css?1719522771" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc315/css/variant.css?1719522771" rel="stylesheet">
-    <link href="/cc315/css/print.css?1719522771" rel="stylesheet" media="print">
-    <link href="/cc315/css/format-print.css?1719522771" rel="stylesheet">
-    <script src="/cc315/js/variant.js?1719522771"></script>
+    <link href="/cc315/css/fontawesome-all.min.css?1737135054" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1737135054" rel="stylesheet"></noscript>
+    <link href="/cc315/css/nucleus.css?1737135054" rel="stylesheet">
+    <link href="/cc315/css/auto-complete.css?1737135054" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1737135054" rel="stylesheet"></noscript>
+    <link href="/cc315/css/perfect-scrollbar.min.css?1737135054" rel="stylesheet">
+    <link href="/cc315/css/fonts.css?1737135054" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1737135054" rel="stylesheet"></noscript>
+    <link href="/cc315/css/theme.css?1737135054" rel="stylesheet">
+    <link href="/cc315/css/theme-auto.css?1737135054" rel="stylesheet" id="R-variant-style">
+    <link href="/cc315/css/chroma-auto.css?1737135054" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc315/css/variant.css?1737135054" rel="stylesheet">
+    <link href="/cc315/css/print.css?1737135054" rel="stylesheet" media="print">
+    <link href="/cc315/css/format-print.css?1737135054" rel="stylesheet">
+    <script src="/cc315/js/variant.js?1737135054"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -728,7 +728,7 @@ In the context of graph data structures, we can think of each intersection as a 
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc315/css/custom.css?1719522771" rel="stylesheet">
+    <link href="/cc315/css/custom.css?1737135054" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc315/iii-graphs/8-graphs--searching-and-traversing/6-in-practice/">
     <div id="R-body" class="default-animation">
@@ -764,16 +764,16 @@ In the context of graph data structures, we can think of each intersection as a 
 
 <h2 id="traveling">Traveling</h2>
 <p>Finding a path in a graph is a very common application in many fields. One application that we benefit from in our day to day lives is traveling. Programs like Google Maps calculate various paths from point A to point B.</p>
-<p><a href="#R-image-a970f92454517d78f20f43aa5a8f8df6" class="lightbox-link"><img alt="Google Map" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/8/Map.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a970f92454517d78f20f43aa5a8f8df6"><img alt="Google Map" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/8/Map.png"></a>^[google.com/maps]</p>
+<p><a href="#R-image-d9161277851341591a46626cca455253" class="lightbox-link"><img alt="Google Map" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/8/Map.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d9161277851341591a46626cca455253"><img alt="Google Map" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/8/Map.png"></a>^[google.com/maps]</p>
 <p>In the context of graph data structures, we can think of each intersection as a node and each road as an edge. Google Maps, however, tracks more features of edges than we have discussed. Not only do they track the distance between intersections, they also track time, tolls, construction, road surface and much more. In the next module, we will discuss more details of how we can find the shortest path.</p>
 <h2 id="map-coloring">Map Coloring</h2>
 <p>Another application of the general searches is coloring maps. The premise is that we don&rsquo;t want two adjacent territories to have the coloring. These territories could be states, like in the United States map below, counties, provinces, countries, and much more.</p>
-<p><a href="#R-image-c25f9901370f46e616518b25fae37b48" class="lightbox-link"><img alt="US Map" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/8/USMap.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c25f9901370f46e616518b25fae37b48"><img alt="US Map" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/8/USMap.png"></a>^[https://commons.wikimedia.org/wiki/File:Map_of_USA_showing_state_names.png]</p>
+<p><a href="#R-image-bda3252369ebf608a349ae8f311e763a" class="lightbox-link"><img alt="US Map" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/8/USMap.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-bda3252369ebf608a349ae8f311e763a"><img alt="US Map" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/8/USMap.png"></a>^[https://commons.wikimedia.org/wiki/File:Map_of_USA_showing_state_names.png]</p>
 <p>The following was generated for this course using the breadth first search and <code>MyMatrixGraph</code> class that we have implemented in this course. To create the visual rendering, the Python library <code>NetworkX</code>^[https://networkx.github.io/] was used. In this rendering, the starting node was Utah. If we were to start from say Alabama or Florida, we would not have a valid four coloring scheme once we got to Nevada. Since Hawaii and Alaska have no land border with any of the states, they can be any color.</p>
-<p><a href="#R-image-3ca9afb8983f47e371f2ee75dde0a392" class="lightbox-link"><img alt="Color Generation" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/8/UsMapColor.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3ca9afb8983f47e371f2ee75dde0a392"><img alt="Color Generation" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/8/UsMapColor.gif"></a></p>
+<p><a href="#R-image-599ca37c1b8059618fb98eede6722bf7" class="lightbox-link"><img alt="Color Generation" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/8/UsMapColor.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-599ca37c1b8059618fb98eede6722bf7"><img alt="Color Generation" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/8/UsMapColor.gif"></a></p>
 
             <footer class="footline">
               
@@ -796,8 +796,8 @@ In the context of graph data structures, we can think of each intersection as a 
   
     
     </div>
-    <script src="/cc315/js/clipboard.min.js?1719522771" defer></script>
-    <script src="/cc315/js/perfect-scrollbar.min.js?1719522771" defer></script>
-    <script src="/cc315/js/theme.js?1719522771" defer></script>
+    <script src="/cc315/js/clipboard.min.js?1737135054" defer></script>
+    <script src="/cc315/js/perfect-scrollbar.min.js?1737135054" defer></script>
+    <script src="/cc315/js/theme.js?1737135054" defer></script>
   </body>
 </html>

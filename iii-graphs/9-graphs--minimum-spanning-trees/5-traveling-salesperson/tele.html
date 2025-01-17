@@ -689,17 +689,17 @@
     <link href="/cc315/iii-graphs/9-graphs--minimum-spanning-trees/5-traveling-salesperson/index.xml" rel="alternate" type="application/rss+xml" title="Traveling Salesperson :: CC 315 Textbook">
     <link href="/cc315/iii-graphs/9-graphs--minimum-spanning-trees/5-traveling-salesperson/index.print.html" rel="alternate" type="text/html" title="Traveling Salesperson :: CC 315 Textbook">
     <link href="/cc315/iii-graphs/9-graphs--minimum-spanning-trees/5-traveling-salesperson/embed.html" rel="alternate" type="text/html" title="Traveling Salesperson :: CC 315 Textbook">
-    <link href="/cc315/css/fontawesome-all.min.css?1719522773" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1719522773" rel="stylesheet"></noscript>
-    <link href="/cc315/css/nucleus.css?1719522773" rel="stylesheet">
-    <link href="/cc315/css/auto-complete.css?1719522773" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1719522773" rel="stylesheet"></noscript>
-    <link href="/cc315/css/perfect-scrollbar.min.css?1719522773" rel="stylesheet">
-    <link href="/cc315/css/fonts.css?1719522773" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1719522773" rel="stylesheet"></noscript>
-    <link href="/cc315/css/theme.css?1719522773" rel="stylesheet">
-    <link href="/cc315/css/theme-auto.css?1719522773" rel="stylesheet" id="R-variant-style">
-    <link href="/cc315/css/chroma-auto.css?1719522773" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc315/css/variant.css?1719522773" rel="stylesheet">
-    <link href="/cc315/css/print.css?1719522773" rel="stylesheet" media="print">
-    <script src="/cc315/js/variant.js?1719522773"></script>
+    <link href="/cc315/css/fontawesome-all.min.css?1737135055" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1737135055" rel="stylesheet"></noscript>
+    <link href="/cc315/css/nucleus.css?1737135055" rel="stylesheet">
+    <link href="/cc315/css/auto-complete.css?1737135055" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1737135055" rel="stylesheet"></noscript>
+    <link href="/cc315/css/perfect-scrollbar.min.css?1737135055" rel="stylesheet">
+    <link href="/cc315/css/fonts.css?1737135055" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1737135055" rel="stylesheet"></noscript>
+    <link href="/cc315/css/theme.css?1737135055" rel="stylesheet">
+    <link href="/cc315/css/theme-auto.css?1737135055" rel="stylesheet" id="R-variant-style">
+    <link href="/cc315/css/chroma-auto.css?1737135055" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc315/css/variant.css?1737135055" rel="stylesheet">
+    <link href="/cc315/css/print.css?1737135055" rel="stylesheet" media="print">
+    <script src="/cc315/js/variant.js?1737135055"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -719,7 +719,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc315/css/custom.css?1719522773" rel="stylesheet">
+    <link href="/cc315/css/custom.css?1737135055" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc315/iii-graphs/9-graphs--minimum-spanning-trees/5-traveling-salesperson/">
     
@@ -749,8 +749,8 @@
 <p>The motivation of the TSP is this: given a set of locations, what is the shortest path such that we can visit each location and end back where started?</p>
 <p>Suppose we wanted to take a roadtrip with friends to every state capital in the continental US as well as Washington D.C. To save money and time, we would want to minimize the distance that we travel. Since we are taking a roadtrip, we would want to avoid frivolous driving. For example, if we start in Sacremento, CA we would not want to end the trip in Boston, MA. The trip should start and end at the same location for efficiency.</p>
 <p>The figure below shows the shortest trip that visits each state capital and Washington D.C. once. In this example, we can start where ever we like and will end up where we started.
-<a href="#R-image-b8c859255562391ba356e7f175d1e03c" class="lightbox-link"><img alt="Visit each state capital" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/9/7_TSP_TOUR.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b8c859255562391ba356e7f175d1e03c"><img alt="Visit each state capital" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/9/7_TSP_TOUR.png"></a>^[PatriciaNeri, August 2018 https://communities.sas.com/t5/SAS-Communities-Library/What-is-the-shortest-tour-that-visits-only-once-the-48/ta-p/490231]</p>
+<a href="#R-image-26bf6f53ac6bf10c97ecdce0ca3887fb" class="lightbox-link"><img alt="Visit each state capital" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/9/7_TSP_TOUR.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-26bf6f53ac6bf10c97ecdce0ca3887fb"><img alt="Visit each state capital" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/9/7_TSP_TOUR.png"></a>^[PatriciaNeri, August 2018 https://communities.sas.com/t5/SAS-Communities-Library/What-is-the-shortest-tour-that-visits-only-once-the-48/ta-p/490231]</p>
 <p>In this problem, it is easy to get overwhelmed by all of the possibilities. Since there are 49 cities to visit, there are over <code>6.2*10^60</code> possibilities. For reference, <code>10^12</code> is equivalent to one trillion! Thus, we need an algorithmic approach to solve this problem as opposed to a brute force method.</p>
 
             <footer class="footline">
@@ -769,11 +769,11 @@
 
 
 
-<script src="/cc315/js/clipboard.min.js?1719522773" defer></script>
-<script src="/cc315/js/perfect-scrollbar.min.js?1719522773" defer></script>
-<script src="/cc315/js/theme.js?1719522773" defer></script>
+<script src="/cc315/js/clipboard.min.js?1737135055" defer></script>
+<script src="/cc315/js/perfect-scrollbar.min.js?1737135055" defer></script>
+<script src="/cc315/js/theme.js?1737135055" defer></script>
 
-<script src="/cc315/js/tele-scroll.js?1719522773" defer></script>
+<script src="/cc315/js/tele-scroll.js?1737135055" defer></script>
 
 </body>
 </html>

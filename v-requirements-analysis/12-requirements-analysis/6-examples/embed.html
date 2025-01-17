@@ -690,19 +690,19 @@
     <link href="/cc315/v-requirements-analysis/12-requirements-analysis/6-examples/index.print.html" rel="alternate" type="text/html" title="Examples :: CC 315 Textbook">
     <link href="/cc315/v-requirements-analysis/12-requirements-analysis/6-examples/tele.html" rel="alternate" type="text/html" title="Examples :: CC 315 Textbook">
     
-  <link href="/cc315/css/fontawesome-all.min.css?1719522769" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1719522769" rel="stylesheet"></noscript>
-  <link href="/cc315/css/nucleus.css?1719522769" rel="stylesheet">
-  <link href="/cc315/css/auto-complete.css?1719522769" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1719522769" rel="stylesheet"></noscript>
-  <link href="/cc315/css/perfect-scrollbar.min.css?1719522769" rel="stylesheet">
-  <link href="/cc315/css/fonts.css?1719522769" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1719522769" rel="stylesheet"></noscript>
-  <link href="/cc315/css/theme.css?1719522769" rel="stylesheet">
+  <link href="/cc315/css/fontawesome-all.min.css?1737135053" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fontawesome-all.min.css?1737135053" rel="stylesheet"></noscript>
+  <link href="/cc315/css/nucleus.css?1737135053" rel="stylesheet">
+  <link href="/cc315/css/auto-complete.css?1737135053" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/auto-complete.css?1737135053" rel="stylesheet"></noscript>
+  <link href="/cc315/css/perfect-scrollbar.min.css?1737135053" rel="stylesheet">
+  <link href="/cc315/css/fonts.css?1737135053" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc315/css/fonts.css?1737135053" rel="stylesheet"></noscript>
+  <link href="/cc315/css/theme.css?1737135053" rel="stylesheet">
   
   
   
-  <link href="/cc315/css/theme-light-theme.css?1719522769" rel="stylesheet" id="R-variant-style">
-  <link href="/cc315/css/chroma-relearn-light.css?1719522769" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc315/css/variant.css?1719522769" rel="stylesheet">
-  <link href="/cc315/css/print.css?1719522769" rel="stylesheet" media="print">
+  <link href="/cc315/css/theme-light-theme.css?1737135053" rel="stylesheet" id="R-variant-style">
+  <link href="/cc315/css/chroma-relearn-light.css?1737135053" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc315/css/variant.css?1737135053" rel="stylesheet">
+  <link href="/cc315/css/print.css?1737135053" rel="stylesheet" media="print">
   
   
   
@@ -725,7 +725,7 @@
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc315/css/custom.css?1719522769" rel="stylesheet">
+  <link href="/cc315/css/custom.css?1737135053" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc315/v-requirements-analysis/12-requirements-analysis/6-examples/embed.html">
@@ -758,8 +758,8 @@
 <p>Take a moment to think on how you might go about this. Remember, there can be multiple ways of solving these problems. We need to be sure that we can articulate and justify our answers.</p>
 <p>This is a situation where we could potentially use all three data structures!</p>
 <p>First, we could use a tree to represent the search refinement. Thinking along the lines of a data structure, each category and subsequently each product will have exactly one parent. While something like &lsquo;wigs&rsquo; shows up in all three categories, you wouldn&rsquo;t want dog wigs showing up in a search for adult wigs. Thus, there is a unique ancestry for each category and product.</p>
-<p><a href="#R-image-aa1bccb9eb1504ef7da4cc7172dfb08a" class="lightbox-link"><img alt="Tree for Search" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/11/11_costume_trie.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-aa1bccb9eb1504ef7da4cc7172dfb08a"><img alt="Tree for Search" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/11/11_costume_trie.svg"></a></p>
+<p><a href="#R-image-d26e0c25f2aa60954cd37df10b89b575" class="lightbox-link"><img alt="Tree for Search" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/11/11_costume_trie.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d26e0c25f2aa60954cd37df10b89b575"><img alt="Tree for Search" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/11/11_costume_trie.svg"></a></p>
 <p>In this scenario we had a fixed ordering of our hierarchy. If the manager wanted users to be able to sort by costume part and then who it was for, our tree would not hold up.</p>
 <p>The second portion that was requested was a recommendation system. We could implement this in two parts. The first would be a graph in which the nodes are the products and they are connected based on the similarity of the products.</p>
 <p>For example, a purple childrens wig will be very similar to a childrens blue wig but it would be very different from an adults clown shoes. Thus, our graph would have a heavily weighted connection between the childrens purple and blue wig and there would be an edge with a very small weight between the purple wig and adult clown shoes. We can obtain this information from the manager. Since each product will be connected to every other product, a matrix graph would be best suited here.</p>
@@ -775,16 +775,16 @@
 <p>Again, this is a situation where we could potentially use three data structures!</p>
 <p>We can use a priority queue to suggest tasks for the players to do. In this priority queue, the priority would be the payout and the item would be the task itself. As tasks get completed, we would dequeue them.</p>
 <p>We can use a trie to represent the set of shortcuts. Below is a small sample of how we can implement our trie.</p>
-<p><a href="#R-image-ff3bf94a7f3105747114adc1e7b3a567" class="lightbox-link"><img alt="Trie for Shortcuts" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/11/11_videogame_trie.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ff3bf94a7f3105747114adc1e7b3a567"><img alt="Trie for Shortcuts" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/11/11_videogame_trie.svg"></a></p>
+<p><a href="#R-image-bbca9d3bfbf8b9de1dd737b11d8a0350" class="lightbox-link"><img alt="Trie for Shortcuts" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/11/11_videogame_trie.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-bbca9d3bfbf8b9de1dd737b11d8a0350"><img alt="Trie for Shortcuts" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/11/11_videogame_trie.svg"></a></p>
 <p>Since our friend mentioned that similar tasks should have similar combinations, a trie will fit well. These key combinations will have similar prefixes, so we can save ourselves space to store them by using a trie.</p>
 <p>Finally, for the world layout we could use a graph. Similar to the maze project or weather station project, we can have nodes represent points on a plot and the edges will represent connections. The nodes will now have three coordinates, (x,y,z), rather than two, (x,y) or (latitude, longitude) and they will have an associated type (dirt, tree, rock, etc.).
-<a href="#R-image-dc3c28d5f792b6bc7e72222e577317cc" class="lightbox-link"><img alt="Graph for world blocks" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/11/11_videogame_graph.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-dc3c28d5f792b6bc7e72222e577317cc"><img alt="Graph for world blocks" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/11/11_videogame_graph.svg"></a></p>
+<a href="#R-image-2621c7f446a1b6db89e1e14ca0128e0b" class="lightbox-link"><img alt="Graph for world blocks" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/11/11_videogame_graph.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2621c7f446a1b6db89e1e14ca0128e0b"><img alt="Graph for world blocks" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/11/11_videogame_graph.svg"></a></p>
 <p>Two nodes will be connected if they directly adjacent. Players can harvest cubes such as soil or limestone, and it would be removed from the world. We would utilize our remove node function to reflect this kind of action. Similarly, players can build up the world in spaces that allow, such as the dirt pile in an open area, and for that we can use our add node function as well as the appropriate add edge functions.</p>
 <p>In our implementation of a graph, it would be better to use a list graph. Each block will be connected to at most six other blocks.
-<a href="#R-image-2a88bf74b573478dd18c0cf6c336fd6d" class="lightbox-link"><img alt="Cubes neighbors" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/11/11_videogame_cubes.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2a88bf74b573478dd18c0cf6c336fd6d"><img alt="Cubes neighbors" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/11/11_videogame_cubes.svg"></a></p>
+<a href="#R-image-a27dffff20343f3922f1311e0a628d76" class="lightbox-link"><img alt="Cubes neighbors" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc315/images/11/11_videogame_cubes.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a27dffff20343f3922f1311e0a628d76"><img alt="Cubes neighbors" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc315/images/11/11_videogame_cubes.svg"></a></p>
 
             <footer class="footline">
               
@@ -799,10 +799,10 @@
 
 
 
-<script src="/cc315/js/clipboard.min.js?1719522769" defer></script>
-<script src="/cc315/js/perfect-scrollbar.min.js?1719522769" defer></script>
-<script src="/cc315/js/theme.js?1719522769" defer></script>
+<script src="/cc315/js/clipboard.min.js?1737135053" defer></script>
+<script src="/cc315/js/perfect-scrollbar.min.js?1737135053" defer></script>
+<script src="/cc315/js/theme.js?1737135053" defer></script>
 
-<script src="/cc315/js/embed-iframe.js?1719522769" defer></script>
+<script src="/cc315/js/embed-iframe.js?1737135053" defer></script>
 </body>
 </html>
